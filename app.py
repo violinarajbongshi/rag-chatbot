@@ -1,9 +1,9 @@
 import streamlit as st
 from rag_engine import RAGEngine
 
-st.set_page_config(page_title="RAG Chatbot", layout="wide")
+st.set_page_config(page_title="Shiprocket KB Checker", layout="wide")
 
-st.title("📚 RAG Chatbot")
+st.title("📚 Shiprocket KB Checker")
 
 # Sidebar
 with st.sidebar:
