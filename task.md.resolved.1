@@ -1,0 +1,7 @@
+# Unit Testing RAG Chatbot
+
+- [/] Initialize Project and Environment
+- [ ] Create Implementation Plan
+- [ ] Implement RAG Core Logic (Ingestion & Retrieval)
+- [ ] Implement Streamlit UI
+- [ ] Manual Verification with User KB
