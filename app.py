@@ -1,6 +1,10 @@
 import streamlit as st
 import os
+from dotenv import load_dotenv
 from rag_engine import RAGEngine
+
+# Load environment variables
+load_dotenv()
 
 st.set_page_config(page_title="Shiprocket KB Checker", layout="wide")
 
@@ -16,8 +20,37 @@ with st.sidebar:
     
     if provider == "ollama":
         model_name = st.text_input("Model Name", value="llama3", help="Make sure you have pulled this model using 'ollama pull <model>'")
-    else:
-        api_key = st.text_input("API Key", type="password")
+    elif provider == "openai":
+        # Check environment variable first
+        api_key = os.getenv("OPENAI_API_KEY")
+        
+        # If not found, try st.secrets (gracefully handle missing secrets)
+        if not api_key:
+            try:
+                if "OPENAI_API_KEY" in st.secrets:
+                    api_key = st.secrets["OPENAI_API_KEY"]
+            except FileNotFoundError:
+                pass # No secrets file found, ignore
+            except Exception:
+                pass # Other secrets errors
+            
+        if not api_key:
+            st.error("OPENAI_API_KEY not found in .env or secrets.")
+            
+    elif provider == "google":
+        api_key = os.getenv("GOOGLE_API_KEY")
+        
+        if not api_key:
+            try:
+                if "GOOGLE_API_KEY" in st.secrets:
+                    api_key = st.secrets["GOOGLE_API_KEY"]
+            except FileNotFoundError:
+                pass
+            except Exception:
+                pass
+            
+        if not api_key:
+            st.error("GOOGLE_API_KEY not found in .env or secrets.")
     
     st.divider()
     st.header("Knowledge Base")
