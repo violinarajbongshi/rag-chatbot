@@ -1,0 +1,32 @@
+chunk_content
+"How do I change primary address on Mobile App?
+
+To change your primary address, follow these steps:
+* Open your Shiprocket app and go to ‘Settings’ from the More option.
+* Click on the ‘Pickup Addresses’ to see a list of already added pickup addresses.
+* Search for the address that you want to use as your primary address. 
+* Open that address and tick the ""Set this address as Primary"" option.
+* Alternatively, if you want to add a new address as primary address, then click on ‘Add Pickup Address’ button and choose ""Set this address as Primary"" option. Fill in the remaining details of your new address in the fields.
+* Click on the ‘Save Address’ button."
+"What is the maximum character length of the address line 1?
+
+The maximum overall length of the address, including both Address Line 1 and Address Line 2, is 190 characters."
+"What is NPR? 
+
+* NPR stands for Non-Pickup Reason. Essentially, it denotes the reason when a shipment is not picked up from the seller due to various factors such as pickup not attempted, seller-initiated delay, courier delay, etc."
+"What are the various Pick up statuses?
+
+* The following are the various statuses:
+   * Pick up Scheduled: Pickup of shipments has been scheduled.
+   * Pick up Completed: All shipments were picked up.
+   * Pick up Cancelled: All shipments associated with a pick up ID are cancelled.
+   * Partially completed: Only a few shipments were picked up from a specific pickup ID.
+   * Pickup Exception: When a courier company attempted pickup but was unable to complete it due to unforeseen circumstances."
+"What if I don’t add a GST number for a state?
+
+If no GST number is provided for a state, invoices will be generated using central GST for that state."
+"How to Fill the Volumetric Section for a Poly Mailer Bag
+
+When using a Poly Mailer Bag (Flyer packaging), you need to consider the dimensions of the package once the shipment is packed. Although the bag may only have length and height, the packed item will have three dimensions: length, width, and height.
+
+For example, if you are packing clothes, measure the length, width, and height of the package after it is packed. Use these dimensions to fill out the volumetric section accurately."

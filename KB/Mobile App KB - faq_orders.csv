@@ -1,0 +1,840 @@
+chunk_content
+"How to create a domestic order using shiprocket mobile app?
+
+You can create a domestic order using the following steps:
+1. Open your Shiprocket mobile app. 
+2. Click on the 'Add Orders' Button present in the 'Quick Actions' options.
+3. Select Domestic Forward Order and click on the Proceed button.
+4. Select a saved pickup address or tap ‘Add Pickup Address’ to create a new one.
+5. Next, enter the Delivery Pincode (Optional).
+6. Next, add the product details like name, quantity, unit price, SKU etc. Tap ‘Show More’ to include category, HSN code, tax rate and discount (if applicable).
+7. If you want to add 2 or more products click on the '+ Add Another Product' button and add the product details.
+8. Next, add the weight, package type and package dimensions(length, breadth, height in cm). 
+9. Next, select the payment mode from Cash On Delivery or Prepaid.
+10. Click on 'Next' button present on the bottom of the page.
+11. Next, select the customer incase already been added or enter these customer details:
+      a. First name
+      b. Last name
+      c. Email(Optional)
+      d. Phone number
+      e. Alternate Phone Number(Optional)
+      f. House No, Building Name, etc
+      g. Locality/Street Name(Optional)
+      h. Landmark(Optional)
+      i. Pincode
+13. Incase, the billing address is same as the delviery address, Tick mark the checkbox 'Billing address same as Delivery address''
+14. Incase, billing and delivery address are different then add the billing details.
+15. Then add the Other Details:
+      a. Order ID (custom or system-generated)
+      b. Order Date (defaults to today)
+      c. Order Channel (dropdown)
+      d. Tags
+      e. Reseller Name
+      f. Buyer GST Number
+     g. Notes (if needed)
+16. Click on the Add order button present at the bottom of the page to successfully create your order."
+"When will I receive my COD payment using Shiprocket Mobile App?
+
+You will receive the COD amount in your bank account after 8 to 9 days from the date of order delivery. To check your COD remittance:
+* Open your Shiprocket App and Go to ‘COD Remittance’ from the 'More' option.
+* Here you can put a date filter to check your remittance. 
+Alternatively, you can opt for our Early COD option, and receive COD payments in your bank account as soon as 2 days after delivery. 
+Please log in to your Shiprocket account on your desktop/laptop to access Early COD functionality. "
+"Can I submit my KYC details via Shiprocket mobile app?
+
+* Yes, you can submit your KYC details using the Shiprocket App. You only need to do this once as a first-time customer.
+* Follow the steps below to know how to complete your KYC verification:
+   * Go to your bottom menu and click on the More icon. 
+   * Click on ‘Settings’ >> ‘KYC’ to proceed.
+   * You have to do Individual and Company KYC.
+   * For Individual KYC:
+      * Complete Your Photo Identification.
+      * Aadhaar OTP Verification
+      * You can also upload documents. (Make sure manual KYC will take upto 2-3 business days to get verified.)
+   * For Company KYC:
+      * Select Your Company Type
+      * Complete your Photo Identification. (Make sure your selfie is clear and visible.)
+      * Automated GSTIN OTP Verification. (Sole Proprietors can verify your KYC using Aadhaar details.)
+      * You can also upload company related documents. (PAN card is mandatory if you are completing your KYC as a company.)
+      * Finally, click on ‘Submit’"
+"I want to add my customer details in Shiprocket Mobile App
+
+* Yes, you can easily add your customer details in the Shiprocket App. You can now create a database of your customers' details. This will allow you to add pre-filled information at the time of shipment creation.
+* Log in to your Shiprocket App and click on the ‘More’ icon >> Customers.
+* Here, click on the (+) icon to add a new customer.  
+* Add the required details in the field such as First Name, Last Name, Email, Phone Number, and Delivery Address.
+* Finally, click on ‘Add Customer’ button to proceed.
+* Note: New customer can be added from the Forward Order or Hyperlocal Order screen too. "
+"My order hasn't been delivered yet. How to escalate it using shiprocket mobile app?
+
+* In case the EDD (Estimated delivery date) is crossed and shipment is still not delivered, we request you to raise the issue to our logistic operations team via expedite delivery option. 
+* Steps to be followed:
+   * Open Orders page from the bottom menu.
+   * Go to In-transit tab and filter out your ""Undelivered"" order. Alternatively, you can also search your order ID on the home page.
+   * Here filter out your orders by selecting 'Delivery Delayed' status. Select your preferred order.
+   * Click on the order.
+   * You can then click on the 'Get Help' button present on the screen to raise a delivery escalation.
+   * You'll find an 'Escalate' button on the bottom half of your screen. Click on it and choose the appropriate reason for escalation."
+"What is Hyperlocal?
+
+Hyperlocal delivery refers to the quick and efficient delivery of goods within a limited geographic area(Upto 50 Kms from the pickup), typically within the same city or locality. It focuses on providing same-day or next-day delivery services.
+Note: This feature can be used in mobile app."
+"How can i check for my transaction history in shiprocket mobile app?
+
+You can check for your transaction history using the following steps:
+
+1. Go to the 'More' option from the footer.
+2. Navigate and select the 'Wallet & Passbook' option.
+3. Next, you will be redricted to the 'Wallet & Passbook' page. 
+4. Click on the 'Passbook' button from the header.
+5. Here you can check for your past transactions.
+6. If you want to check for a particular shipment you can search the AWB from the top search bar.
+7. You can use filters if you want to search for some particular type of transactions."
+"How Can i check my shipment metric on the shiprocket mobile app? How do I check order, revenue, etc?
+
+For checking the shipment metric, follow these steps:
+1. You will find a dashboard section on the Home page of your app.
+2. Click on View dashboard to check a detailed view of all your performance data. Here, you will find Total Orders, Revenue, Shipments breakdown, COD, Pickup & Delivery numbers, NDR, and Weight Discrepancies count.
+3. You can change the duration according to the required data using the drop down beside each metric."
+"How to customize the labels using shiprocket mobile app?
+
+To customize the labels using mobile app, follow these steps:
+* Click on the 'More' option from the bottom of the homepage.
+* Next, click on the 'Settings' >> 'Labels & Invoices' >> 'Set Shipping Label Preferences'
+* Here, you can select the label format and make following changes:
+    ** Display Order value in COD and Prepaid label.
+    ** Display Shipper's Mobile No. and Alternate Mobile No. in Label.
+    ** Hide Product Name in Label
+    ** Hide SKU Name in Label
+    ** Hide Consignee's Contact Number in Label
+    ** Display Your Support Number & Email in Label.
+* You can also 'Preview Label'.
+* Lastly, click on the 'Save' button."
+"How to customize the customer invoice information using shiprocket mobile app?
+
+To customize the Invoice information, follow these steps:
+* Click on the 'More' option from the bottom of the homepage.
+* Next, click on the 'Settings' >> 'Labels & Invoices' >> 'Set Invoice Preferences'
+* You can update the following details
+    ** CIN Number
+    ** Invoice Prefix
+    ** Invoice Suffix
+    ** Invoice Type (Classic A4 Size or Thermal 6x4 Size)
+    ** Hide Consginee's Contact Number in Invoice.
+    ** Upload Your Sugnature.
+* Finally, click on the 'Save' button."
+"How to share the referral code of shiprocket mobile app
+
+For sharing your referral code from the mobile app, follow these steps:
+
+1. Go to the 'more' tab from the footer and navigate to the 'Refer & Earn' Tab.
+2. Click on the tab and you can get your referral code right here.
+3. For sharing the referral code you can select the preffered social media platform from the bottom of the page.
+4. You can also copy the code and share it manually."
+"How can I ship or schedule pickup for a created order on the mobile app?
+
+To ship an order using Shiprocket mobile app, Follow these steps:
+1. Click on the 'Orders' tab present in the footer of the page.
+2. Next, click on the 'New' tab at the top.
+3. Here, You can ship your order by clicking on the 'Ship Now' button on the shipment to be shipped.
+4. Next, You can select the preffered delivery type(Surface or Air).
+5. Next select the preffered courier partner and click on the Ship button present at the bottom of the page.
+6. Next, select the preffered date and click on the 'Schedule Pickup' button present at the bottom of the page. "
+"How can i check for my delivered shipments in shiprocket mobile app?
+
+For checking the delivered shipments, follow these steps:
+
+1. Click on the 'Orders' tab present in the footer of the page.
+2. Click on the 'Delivered' tab at the top.
+3. Here you can check for the delivered shipments.
+4. For searching a particular shipment you can enter the AWB/Order ID/ Phone number associated with the order in the search bar present on the top of the page.
+5. For applying some particular filter, click on the 'Filters' button present on the top right corner.
+6. Here you can apply the filters required."
+"How can i check for the ready to ship shipments in shiprocket mobile app?
+
+For checking the orders which are ready to ship, follow these steps:
+1. Click on the 'Orders' tab present in the footer of the page.
+2. Click on the 'Ready to Ship' tab present in the header of the page.
+3. Here you can check for the Ready to Ship orders.
+4. For searching a particular shipment you can enter the AWB/Order ID/ Phone number associated with the order in the search bar present on the top of the page.
+5. For applying some particular filter, click on the 'Filters' button present on the top right corner.
+6. Here you can apply the filters required."
+"How can i check for my shipments which are in Transit using the shiprocket mobile app?
+
+For checking the shipments which are in Transit, follow these steps:
+1. Click on the 'Orders' tab present in the footer of the page.
+2. Click on the 'In Transit' tab present at the top.
+3. Here you can check for the shipments which are In Transit.
+4. For searching a particular shipment you can enter the AWB/Order ID/ Phone number associated with the order in the search bar present on the top of the page.
+5. For applying some particular filter, click on the 'Filters' button present on the top right corner.
+6. Here you can apply the filters required."
+"How can i check for the shipments with pickup scheduled in shiprocket mobile app?
+
+For checking the shipments with pickup scheduled, follow these steps:
+
+1. Click on the 'Orders' tab present in the footer of the page.
+2. Click on the 'Pickup Id & Manifest' tab present in the header of the page.
+3. Here you can check for shipments with pickup scheduled.
+4. For searching a particular shipment you can enter the AWB/Order ID/ Phone number associated with the order in the search bar present on the top of the page.
+5. For applying some particular filter, click on the 'Filters' button present on the top right corner.
+6. Here you can apply the filters required."
+"How can i track my hyperlocal shipments?
+
+To track your hyperlocal orders, follow these steps:
+
+1. Go to the 'Orders' tab from the footer.
+2. Next, Click on the 'Hyperlocal' tab present in the header of the page.
+3. Here you will fine the list of all the hyperlocal orders.
+4. For searching a particular order you can enter the AWB/Order ID/ Phone number associated with the order in the search bar present on the top of the page.
+5. For applying some particular filter, click on the 'Filters' button present on the top right corner.
+6. Here you can apply the filters required."
+"What are order-related actions present in the three dots/overflow menu option?
+
+* If you click on the three dots menu option (...), a list view will open with various actions available for that particular order depending on the status of that order:
+   * Download Invoice 
+   * Edit Order
+   * Add Order Tag
+   * Clone Order
+   * Cancel Order"
+"What bulk options are available in the Ready To Ship tab?
+To perform bulk actions, long-press a single order in the list to enable the multi-select option. Then, select the orders and click on the three dots menu at the top right to choose an action. The available bulk actions include:
+   * Download Label
+   * Download Invoice
+   * Schedule Pickup
+   * Download Manifest"
+"How to download shipping label or invoice on mobile app?
+
+To perform bulk actions, long-press a single order in the list to enable the multi-select option. Then, select the orders and click on the three dots menu at the top right to choose an action. The available bulk actions include:
+   * Download Label
+   * Download Invoice
+   * Schedule Pickup
+   * Download Manifest"
+"How to cancel an order on mobile app?
+
+To cancel an order on Shiprocket, follow the steps:
+* Go to the 'Orders' section by clicking the icon at the bottom of the page.
+* Search for the order you want to cancel by entering the AWB or Order ID in the search bar at the top of the page.
+* Once you've found the order, click on it to see more details. 
+* Click on the three dots menu at the top right. You'll see the option to Cancel Shipment.
+* Click on 'Cancel Shipment' option to cancel this order.
+
+Note: An order cannot be cancelled after reaching the status of 'Out for Pickup'."
+"Why is my pickup delayed on mobile app?
+
+Your pickup may be delayed due to various reasons, such as:
+
+* Pickup Errors: This can occur if there's an API or network issue at the time of generating the pickup request.
+* Pickup Exceptions: If the field executive couldn't pick up an order due to any issue, it may lead to delays.
+* Rescheduled Pickups: If a pickup attempt fails, it may be rescheduled for the next business day.
+* High Volume: Increased shipment volume can also lead to delays in pickups.
+To check the specific reasons for your delayed pickup, you can refer to the Delays Dashboard in your Shiprocket account on website. This dashboard provides insights into various shipment statuses, including delays in pickups.
+
+If you need to raise a complaint regarding the delay, you can do so by creating a ticket from the support page in the mobile app."
+"How can I schedule pickups for my orders in Bulk on mobile app?
+
+To bulk ship orders using Shiprocket mobile app, follow these steps:
+
+1. Click on the 'Orders' tab present in the footer of the page.
+2. Next, click on the 'Ready to Ship' tab present in the header of the page.
+3. Long-press an order to enable the multi-select option and select the orders you want to process.
+4. Click on the three-dots menu at the bottom and select 'Schedule Pickup'. Your pickup schedule request will be initiated."
+"How to edit the pickup address on Mobile App?
+
+To change the pickup address of your order on Shiprocket, follow the steps:
+* Go to the 'Orders' section by clicking the icon at the bottom of the page.
+* Search for the order in which you want to change the pickup location by entering the AWB or Order ID in the search bar at the top of the page.
+* Once you've found the order, click on the order to see more details. You'll see the 'Edit' icon beside the 'Pickup Address'.
+* Click on the 'Edit' icon, and you will see the option to choose a different pickup address from the drop-down.
+* After selecting the address, click on the 'Save' button.
+Note: You can only change the pickup address before assigning the courier."
+"At what stage can I edit the order?
+
+You can edit the order details under some conditions:
+* If you have not assigned the courier, then you can change the Buyer details, Pickup details, Weight, package details, etc.
+* If you already assigned the courier partner, then you can only edit the ‘complete Address’ field or Landmark field only."
+"How to check EDD for a particular shipment?
+
+To check the EDD of the particular shipment, follow these steps:
+1. Go to the Orders section from the icon at the bottom of the page.
+2. Click on In Transit tab on the header.
+3. Search by AWB number or Order ID in the search bar located at the top of the page.
+4. Click on the order to see its details, and Estimated Delivery will be there at the top.
+Note: The Estimated Delivery Date (EDD) is visible only if the pickup for the shipment is scheduled."
+"How do I add a new pickup address on Mobile App?
+
+To add the new pickup address, follow these steps:
+* Open your Shiprocket app and go to ‘Settings’ from the More option.
+* Click on the ‘Pickup Addresses’ to see a list of already added pickup addresses.
+* To add a new address, click on the ‘Add Pickup Address’ button at the bottom of the page.
+* On clicking the ‘Add Pickup Address’ button, a new page will appear where you can add a pickup address by entering the following information:
+   * Address Nickname: It acts as a nickname for your pickup address. We recommend you enter a name that can be easily recalled.
+   * Contact Info: Enter the following contact details of your warehouse manager/operations head available at this pickup location.
+      * Contact Name
+      * Phone
+      * Alternate Phone
+      * Email
+   * Address Details: Fill in the complete address of your pickup location by filling these fields:
+      * House Number, Building Name, etc.
+      * Locality / Street Name
+      * Pincode
+      * City
+      * State
+   * If you want to set this address as the Primary address, then tick the checkbox for this option at the top.
+   * Click on the ‘Save Address’ button."
+"How can I check for my shipped orders?
+
+To view your shipped orders, follow these steps:
+1. Go to the Orders section from the icon at the bottom of the page.
+2. Go to In Transit Tab from the header.
+3. Click on the Filter icon on the top right corner.
+4. Click on 'Status' option and select 'Shipped'.
+Here, you'll find a list of all your shipped orders."
+"How can I check for my damaged orders?
+
+To view your damaged orders, follow these steps:
+1. Go to the Orders section from the icon at the bottom of the page.
+2. Go to the In Transit tab from the header.
+3. Tap on the Filter icon at the top right corner.
+4. Select the Status option and choose Damaged.
+
+You’ll see a list of all your damaged orders."
+"How can I check for my delayed orders?
+
+To view your delayed orders, follow these steps:
+1. Go to the Orders section from the icon at the bottom of the page.
+2. Go to the In Transit tab from the header.
+3. Tap on the Filter icon at the top right corner.
+4. Select the Status option and choose Delayed.
+
+You’ll see a list of all your delayed orders."
+"How can I check for my destroyed orders?
+
+To view your destroyed orders, follow these steps:
+1. Go to the Orders section from the icon at the bottom of the page.
+2. Go to the In Transit tab from the header.
+3. Tap on the Filter icon at the top right corner.
+4. Select the Status option and choose Destroyed.
+
+You’ll see a list of all your destroyed orders."
+"How can I check for my In-Transit orders?
+
+To view your in-transit orders, follow these steps:
+1. Go to the Orders section from the icon at the bottom of the page.
+2. Go to the In Transit tab from the header.
+
+You’ll see a list of all your in-transit orders."
+"How can I check for the orders which are Out for Delivery?
+
+To view your orders that are out for delivery, follow these steps:
+1. Go to the Orders section from the icon at the bottom of the page.
+2. Go to the In Transit tab from the header.
+3. Tap on the Filter icon at the top right corner.
+4. Select the Status option and choose Out for Delivery.
+
+You’ll see a list of all your orders that are out for delivery."
+"How can I check for the picked up orders?
+
+To view your picked up orders, follow these steps:
+1. Go to the Orders section from the icon at the bottom of the page.
+2. Go to the In Transit tab from the header.
+3. Tap on the Filter icon at the top right corner.
+4. Select the Status option and choose Picked Up.
+
+You’ll see a list of all your picked up orders."
+"How can I check for the orders which have Reached Destination Hub?
+
+To view your orders that have reached the destination hub, follow these steps:
+1. Go to the Orders section from the icon at the bottom of the page.
+2. Go to the In Transit tab from the header.
+3. Tap on the Filter icon at the top right corner.
+4. Select the Status option and choose Reached Destination Hub.
+
+You’ll see a list of all such orders."
+"How can I check for my undelivered orders?
+
+To view your undelivered orders, follow these steps:
+1. Go to the Orders section from the icon at the bottom of the page.
+2. Go to the In Transit tab from the header.
+3. Tap on the Filter icon at the top right corner.
+4. Select the Status option and choose Undelivered.
+
+You’ll see a list of all your undelivered orders."
+"How can I check for my On Hold orders?
+
+To view your on-hold orders, follow these steps:
+1. Go to the Orders section from the icon at the bottom of the page.
+2. Go to the In Transit tab from the header.
+3. Tap on the Filter icon at the top right corner.
+4. Select the Status option and choose On Hold.
+
+You’ll see a list of all your on-hold orders."
+"How can I check for my delivered orders?
+
+To view your delivered orders, follow these steps:
+1. Go to the Orders section from the icon at the bottom of the page.
+2. Go to the Delivered tab from the header.
+
+You’ll see a list of all your delivered orders."
+"How can I check the tracking details of a shipment?
+
+To view the tracking page of a shipment, follow these steps:
+1. Go to the Orders section from the icon at the bottom of the page.
+2. Go to the In Transit tab from the header.
+3. Use the Search bar to find the shipment.
+4. Tap the Track Order button next to the shipment.
+
+You’ll be taken to the shipment’s tracking page."
+"How to create a support ticket if facing issues?
+
+1. Click on the Support option at the bottom of the page.
+2. A page will appear where you have to enter the following details mentioned below:
+    a. Select Category (from the drop-down)
+         1. Pickup & Delivery (Issues related to Pickup / Delivery Delay / RTO escalation, mismatch in tracking status, etc)
+         2. Shipment NDR & RTO (Issues related to NDR reattempts, courier fake attempts, RTO requests)
+         3. Shipment Dispute (Issues related to delivered shipments, status mismatch, incorrect weight charged)
+         4. Finance (Issues related to Remittance status, wallet management, recharge issues, plan upgrade/downgrade)
+         5. KYC & Bank Verification (Issues related to KYC and Bank Verification)
+         6. International Shipping (Issues related to international shipping)
+         7. Technical Support (Issues related to channel connection errors, order management, API auth errors, serviceability issues)
+         8. Billing & Taxation (Issues related to Billing or request an account ledger statement, GST or TDS form)
+         9. Claims (Issues related to Lost or Damaged shipment, request a refund via bank transfer or inquire about credit note)
+         10. Others (Issues related to services such as Engage, Direct, SRF or International)
+
+     b. Select Sub-Category (from the drop-down, also depends on which category you have selected)
+     c. Enter your AWB(s) (this option varies by category)
+
+3. Finally, click on 'Create Ticket' button"""
+"How to clone or create a copy of an order on mobile app?
+
+To clone an order on Shiprocket, follow the steps:
+* Go to the 'Orders' section by clicking the icon at the bottom of the page.
+* Search for the order you want to cancel by entering the AWB or Order ID in the search bar at the top of the page.
+* Once you've found the order, click on it to see more details. 
+* Click on the three dots menu at the top right. You'll see the option to Clone Shipment.
+* Click on 'Clone Shipment' option to create an exact copy of this order."
+"What are orders in the unprocessable tab in the orders tab?
+
+* The Unprocessable tab contains orders that cannot proceed due to inventory-related issues. 
+* These orders are those that come from channel integration like Shopify, Magento, WooCommerce, etc."
+"What orders are present in the New tab of the orders page?
+
+The ""New"" tab on the [Orders](https://app.shiprocket.in/seller/orders/new) page contains all orders created by the seller using the Shiprocket Panel, as well as orders imported from channel integrations such as Shopify, Magento, WooCommerce, etc."
+"What are all the filters available in the new tab of the orders page?
+* In the ""New"" tab of the Orders page, you can apply various filters to sort the orders. These filters include Status, Channels, Payments, Pickup Address, Delivery Country, Secured Shipments, Order Tag, Search Multiple Order IDs and SKU."
+"What are the conditions for Multi Packet Shipment (MPS)?
+
+The conditions for MPS are as follows:
+1. If MPS is enabled in your account, you can enter the package counts.
+2. The maximum number of packets allowed in a single MPS order is 20.
+3. The combined weight of all packets should not exceed 1000kg.
+4. The minimum chargeable weight for MPS orders is 10kg."
+"What is the minimum chargeable weight for Multi Packet Shipment (MPS) orders?
+
+The minimum chargeable weight for MPS orders is 10kg."
+"What is the maximum weight limit for Multi Packet Shipment (MPS) orders?
+
+The maximum combined weight of all packets in an MPS order should not exceed 1000kg."
+"How can I delete an order?
+
+You cannot delete an order from the shiprocket account. You can cancel the order only."
+"Can We Upload Orders in Bulk via API?
+
+Currently, we do not support bulk order uploads via API."
+"Shiprocket have any API for Order Creation?
+
+Yes, we have an API for order creation. For more information, please visit the API documentation at https://apidocs.shiprocket.in/."
+"Is manifest mandatory?
+
+No"
+"Can I choose pickup slots?
+
+No, you can only choose pickup dates."
+"Till which status can I cancel the shipment?
+
+You can cancel the shipment before it has been handed over to the courier, specifically until the status is Out for Pickup (OFP)."
+"Can I do reassignment in bulk?
+
+No, bulk reassignment is not available at the moment."
+"Can I do a bulk retry for all the pickup error orders?
+
+No, bulk retry for pickup error orders is not currently available."
+"How many label types do we have.
+
+We offer three types of labels. For further details related to Label Type Preferences, please contact our support team."
+"Can I assign two awbs on one order?
+
+Yes, it's allowed, but only in MPS."
+"can i make any changes to an amazon label?
+
+No, you cannot make any changes to an Amazon label."
+"how many order can I perform bulk actions on at one time?
+
+There is no order limit for performing bulk actions."
+"What are the list of order statuses
+
+The Following are the order statuses:
+In Forward Journey:
+1. Pickup Scheduled
+2. Out For Pickup 
+3. Picked
+4. Shipped
+5. In-Transit
+6. Reached at Destination Hub
+7. Out For Delivery
+8. Delivered
+9. Undelivered
+
+In Reverse Journey:
+1. RTO Initiated
+2. RTO In-Transit
+3. RTO Reached at Hub
+4. RTO Out For Delivery
+5. RTO Delivered
+6. RTO Undelivered"
+"How can I delete an order?
+
+Once you place an order, you cannot delete it from the panel.
+In case you want to cancel an order, you can cancel it.
+Note: An order cannot be cancelled after reaching the status of 'Out for Pickup'"
+"My Shopify orders are not getting synced. What should I do?
+
+There could be a few reasons for this issue. Firstly, ensure that the Order Sync is turned On for your integrated channel. Make sure the 'Status to fetch' field under the 'Pull Order Statuses' section should be same as Shopify.
+If issue still persist, then create a support ticket.
+"
+"What is the maximum number of items allowed in an order?	
+
+There is no limit to the number of items you can add in an order."
+"Overdue Orders
+The **‘Overdue Orders’** traceability feature help you stay updated about deliveries delayed due to any unforeseen circumstance. If the initial Estimated Delivery Date (EDD) post AWB assignment is breached by the courier partner, these orders will be flagged as **‘Overdue’** on your homepage.
+
+Stay informed and take control with the new **‘Overdue Orders’** feature!"
+"What is the difference between a pickup ID and a Manifest ID?
+
+In Shiprocket, we recently added pickup ID, which allows you to escalate pickup delays. Manifest ID will now be used to report any post-pickup disputes."
+"Why I'm unable to request a pickup for my shipments? Please help!
+
+* You may be unable to request pickup for your shipment for the following reasons:
+   * Pickup Error: Pickup Error status for your shipments is displayed when either the order details are incorrect or the courier company API returns an error response for a variety of reasons. Under the Ready to Ship tab, you'll see the pickup error status under the status column. In this case, depending on the reason for error you, you can edit your order details or you can reassign your courier to a different courier partner.
+   * Eway Bill Required: If you're shipping an order worth more than Rs. 50000, you must upload an Eway Bill to request pickup for your shipment.
+   * Non-Serviceable Zone: If either the pickup or delivery pincode is in the courier's non-serviceable zone, the shipment is marked as Pickup Exception. In this case, you need to reassign your courier to a different courier partner."
+"What is a pickup exception?
+
+* The status Pickup exception is marked when the courier company attempted pickup and couldn't complete it due to some reason. 
+* Pickup Exception reasons would be Pickup not attempted, Seller initiated delay, Courier delay, etc.
+* It can also occur in cases when pickup executive doesn’t attempt pickup. 
+
+In any of the cases, we make an IVR call to understand why the pickup didn't happen. If an IVR call fails, we send an email and SMS for the same. Based on the response, the pickup will automatically be rescheduled for the next available day."
+"Can I cancel a picked up shipment?
+
+You can’t cancel a shipment that is picked up. Shipments can only be cancelled before handover to couriers. But customer can cancel order at any stage of the shipment transit."
+"Can I still use Manifest ID to escalate pickup delays?
+
+No New escalations will be available on Manifest ID. To report any pickup delays, please use Pickup ID."
+"I'm not able to locate my existing Pick up ID on Shiprocket
+
+When all shipments from pickup ID B are moved to pickup ID A, we remove that pickup ID from the system."
+"What happens to a pickup ID if all shipments are cancelled?
+
+The pickup ID will be automatically removed from the system if all shipments in that pickup ID are cancelled."
+"What will be the role of Manifest ID?
+
+The Manifest and Manifest ID are still valid for pickup and are required when handing shipments over to the pickup executive. Furthermore, except for pickup escalation, a Manifest ID is required to raise all other pickup-related issues."
+"Will this have an impact on the pickup process in the Shiprocket mobile apps as well?
+
+Yes, from now on, pickup escalation in Shiprocket Mobile Apps will be based on the pickup ID rather than the Manifest ID. When you raise an escalation, you'll be able to see the pickup ID."
+"Can I modify the order details after I've scheduled pickup?
+
+Please keep in mind that once a courier has been assigned to your order, you will not be able to modify the details. "
+"Can I update the details of an already picked shipment?
+
+There is no such option available to update the details of your already picked shipments."
+"My order is in out for pickup status. Can I cancel it?
+
+We regret to inform you that an order cannot be cancelled if it's in the ""out for pickup"" status. "
+"Can I change the payment mode of my order if it’s in the out for delivery status?
+
+* You cannot change the payment mode if your order is in any of the following statuses:
+   * Out for Delivery
+   * RTO or Return to Origin
+   * Delivered
+   * Lost/Damaged/Destroyed
+* Note: You can change the payment mode of your shipment if it's in the NDR status. "
+"What are the actions you can take from the Pickups tab?
+
+The Pickups & Manifests tab allows you to perform the following actions:
+   * Apply Filters: Orders can be filtered by date range, order statuses, or additional filters such as couriers and escalation status.
+   * Scan and Download Manifest: This icon allows you to scan and generate a manifest for orders that are scheduled for pickup.
+   * Download Report: This button will help you download a report of all orders in the Pickup tab.
+   * Download Manifest: Use this button to download manifest for a single order.
+   * Escalate: If you are experiencing a pickup delay, please escalate the situation from this button.
+   * More (...): This button will allow you to perform the following actions on your order: Download Label, Download"
+"What are the actions you can take from the Delivered tab?
+
+The Delivered  tab allows you to perform the following actions:
+   * Apply Filters: Orders can be filtered by date range or couriers. 
+   * Download Report: This button will help you download a report of all orders in the Delivered tab.
+   * Create Return or Exchange: Use this button to create a direct return or exchange order.
+   * More(...): This button will allow you to perform the following actions on your order: Download POD, Track, and Raise Dispute."
+"What happens if a customer denies receiving a shipment, and are there any penalties for the sender?	
+
+If the customer does not accept the shipment, there are no cancellation charges. However, the sender will be responsible for paying the return shipment charges."
+"What are the required parameters if the order amount is greater than 50k(Rs.50,000)?
+
+If you are creating an order whose value greater than 50K(Rs.50,000). It is mandatory to enter the following details:
+1. E Way Bill
+2. CGST, IGST
+3. HSN"
+"Can we clone cancelled shipments in bulk?
+
+* Currently, cloning cancelled shipments in bulk is not supported. You’ll need to clone them individually from the order list."
+"How do I get training or demo for Shiprocket panel?        
+
+You can check out [Shiprocket YouTube channel](https://www.youtube.com/@Shiprocketdotin) for video demos on various Shiprocket products and services. If you need further assistance with any process, feel free to ask here or reach out to Shiprocket support at support@shiprocket.com or call +91-9711451060 or +91-9711541060."
+"Can I still get pickup-based invoices?
+
+Yes. The pickup-based invoicing option is still available.
+To continue using it, check the box “Enable Pickup Address Based Billing.”
+This option is enabled by default to keep your existing billing experience unchanged."
+"How does Sync order work?
+
+* If your sales channel is integrated with Shiprocket, your orders will automatically sync with Shiprocket's platform. This ensures that all your orders are up to date without manual intervention.
+* Additionally, you can manually trigger the order synchronization process by clicking on the ‘Sync Order’ button located at the top right corner of the page. This prompts Shiprocket to fetch the latest orders from your integrated sales channels."
+"What are order tags? How to add it?
+
+* Adding tags to your order is an optional but recommended step. Multiple tags can be added to your order to help in identification. You can also use order tags to filter your orders
+Here's how you can add tags to your orders:
+* Go to Orders page from the bottom and select the New or All tab to find your order or search for your order from the home page.
+* Swipe the order card to left and click on Edit order option.
+* Scroll to the bottom of the edit order page and click on Other details.
+* Then, type the order tag you want to use. You can add as many order tags as you want.
+* Click on Add details and then click on Update order."
+"How can I bulk download my labels, manifests, or invoices for multiple orders from Ready to Ship tab?
+
+* To perform bulk actions, long-press on an order to enable multi-select and click on all orders that you want to process. At the bottom you will find a three-dots menu, click on it to see all available bulk actions. Select the action you want from the menu. The available bulk actions include:
+   * Download Label   
+   * Download Invoice
+   * Download Picklist
+   * Schedule Pickup
+   * Download Manifest
+   * Bulk Reassign"
+"How can I see my COD and prepaid orders on the orders page?
+
+* To view your COD and prepaid orders on the orders page, follow these steps:
+   * Click on the Payment drop-down at the top of the page.
+   * Select either 'COD' or 'Prepaid' from the options available.
+   * The orders with the selected payment type will appear in the list."
+"How do I search for/find an order?
+
+Go to the search bar located at the top on the home page and type the order ID that you want to search for. You can also type multiple order IDs separated by commas. The order(s) will appear on the screen."
+"Can I create multiple orders with the same order ID?
+
+No, because the order ID is unique for us. The only exception is if the channel is different."
+"I want to upload my brand logo on the label. how to do that?
+
+If you've already uploaded your company logo in the company profile details, there's no need to upload it separately. The logo will automatically appear on the label.  There isn't a separate functionality in the label preferences to upload the brand logo."
+"How can I change the pickup location of my orders in Bulk ?
+
+To change the pickup address of Bulk orders, follow these steps:
+1. Go to Orders page from the bottom menu and click on the 'New' orders tab.
+2. Select the orders for which you want to change the pickup address by long-pressing an order and selecting all others.
+3. Then, click on the three dots menu and select 'Change Pickup Address' from the menu.
+4. A pop-up window will appear, where you can select the pickup address from the drop-down.
+5. Finally, click on the Confirm button."
+"How can I cancel my orders in Bulk ?
+
+To cancel Bulk orders, follow these steps:
+1. Go to Orders page from the bottom menu and click on the 'New' orders tab.
+2. Select the orders for which you want to cancel by long-pressing an order and selecting all others.
+3. Then, click on the three dots menu and select 'Cancel Orders' from the menu.
+4. A pop-up window will appear, where you can select the cancellation reason.
+5. Finally, click on the Yes, Cancel button."
+"How can I verify my orders ?
+
+To verify the orders, follow these steps:
+1. On the 'New' orders tab.
+2. Select the orders for which you want to Verify.
+3. Then, click on the three dots menu and select 'Verify Orders' from the menu.
+4. Your orders will be verified."
+"What is a Pickup ID?
+
+* Pickup ID is an alphanumeric unique ID that is generated to group all your shipments together based on the pickup address ID, courier, and scheduled date. Simply click on the pickup ID to view your shipments. Below are two cases:
+   * Five shipments with the same courier partner are scheduled for the following day: In this case, a single pickup ID will be generated for all five shipments.
+   * Five shipments are scheduled for the following day with different courier partners: In this case, a unique pickup ID will be generated for each shipment."
+"Can shipments be moved from one pickup ID to another?
+
+* Yes, under certain conditions, this is possible. Assume you have two pickup IDs:
+   * SRPID-1001 - Five shipments are scheduled for pickup on the same day.
+   * SRPID-1002 - Three shipments are scheduled for next-day pickup.
+* When the courier arrives to pick up the shipments with pickup SRPID - 1001, he also picks up two shipments with pickup SRPID-1002 because they were also ready at the time. In this particular case, two of the three shipments from SRPID-1002 will be moved to SRPID- 1001."
+"How do I handle pickup delays in my Shiprocket account?
+
+* Please be assured that if there is a delay, the Shiprocket team has already escalated it. However, if you are dissatisfied and wish to escalate, please follow the steps below:
+   * Go to Orders page from the bottm ment then open Pickup ID & Manifests tab.
+   * Find your order and click on the pickup ID, then order ID to open the detailed order page. 
+   * Click on Get Help option at the top and select Pickup Escalation.
+   * Your pickup issue will be escalated."
+"""Can I schedule shipment for a future date?
+
+* Yes, you can schedule your shipment for a future date.
+* When scheduling pickup for your order, you can select a future date for pickup."
+"What is a Pickup error and how to solve it?
+
+* Pickup error occurs when the courier refuses to accept the pickup request. This could happen due to multiple reasons.
+* For example: A pickup error usually comes up when either the order details are incorrect or the courier company API is showing an error response due to some specific reasons.
+* How to solve?
+   * Each pickup error will have a specific pickup error reason associated with it. To fix this issue, you can either reassign the courier or retry with the same courier by correcting the buyer's details.
+* Steps to fix Pickup Error:
+   * Click on Ship Now button.
+   * Select your preferred courier partner and then date.
+   * Now, schedule pickup and after this, your order will be moved to the Ready to Ship tab. "
+"How to raise a delivery dispute in Shiprocket? How do I report issue with my order delivery?
+
+   * Shiprocket gives you the option to raise a dispute against your shipment delivery in case you are facing any issues with it.
+   * You can raise a delivery dispute from Orders page
+   * Delivery Disputes can be raised under the following conditions:
+   * Order Not Delivered - If the status of your shipment shows Delivered/RTO Delivered but your has not received the shipment or you haven’t received the shipment physically
+   * Wrong/Partial/Damaged/Empty Shipment Received - If the received shipment is either damaged/ incorrect/empty/incomplete. 
+   * Follow the steps below to raise a dispute for your shipment:
+   * Go to the Home page from the bottom menu.
+   * Search the AWB Number for which you want to raise the dispute. 
+   * Click on the Order ID to open the order details.
+   * Click on the ‘Get Help’ option at the top and click on Delivery dispute option. 
+   * If your concern is ‘Delivered not Received' then select that option and a dispute will be raised for your order.
+   * If your concern is ‘Wrong/ Damaged/ Partial/ Empty Package Delivered’ then select that option and select your exact dispute reason from the drop down.
+   * Now, upload the proof of your dispute which will be the images or videos of your shipment. We ask for proof in the form of an image in order to have concrete evidence to back up a delivery dispute in front of the courier. This allows us to accurately assess the situation and determine the appropriate resolution. Without an image, it can be difficult to accurately determine what occurred during the delivery process and make a fair decision.
+   * After uploading the images or videos, click on ‘Submit’ button to raise your dispute.
+
+* Note: If the order has crossed the estimated delivery date (EDD) and has not been delivered, Then you can raise the dispute."
+"How to raise a complaint for delivery delay?
+
+   * In case the EDD (Estimated delivery date) is crossed and shipment is still not delivered, we request you to raise the issue to our logistic operations team via expedite delivery option. 
+   * Follow the steps below to raise a dispute for your shipment:
+   * Go to the Home page from the bottom menu.
+   * Search the AWB Number for which you want to raise the dispute. 
+   * Click on the Order ID to open the order details.
+   * Click on the ‘Get Help’ option at the top and click on Delivery Delay option. 
+   * An escalation will be raised for your order.
+
+
+   * Click on the ‘Create Ticket’ button. A pop-up will appear.
+Screenshot[https://sr-sense-prod-mi.s3.ap-south-1.amazonaws.com/kb/images/remarks_delivery_delay.png]
+   * Write your delivery delay remarks in the box and click on the ‘Create Ticket’ button to raise your delivery delay dispute.
+   * Note: If the order has crossed the estimated delivery date (EDD) and has not been delivered, Then you can raise the dispute."
+"How do I ship an order with Shiprocket?
+
+By default, all new orders, whether added manually or imported through sales channels, will be visible in the Orders page.
+   **Ship a Single Order**:
+   * To see all available courier options, click the Ship Now button at the bottom of the order card.
+   * You can view each courier's rating, expected pickup and delivery dates, charged weight, and final charges here. If you haven't already, you can choose to secure your high-value shipment at this point.
+   * Select your preferred courier from the list and click on Ship Now.
+   * Once you've assigned the AWB, you'll be prompted to schedule a pickup for your order. You have the option of scheduling the pickup right away or later.
+
+   **Ship Bulk orders**:
+   * Select all orders that you want to ship at once.
+   * Click on Ship Now button at the bottom.
+   * Based on the priority setting, a courier will be assigned to each of the selected orders. Once completed, you will receive an email informing you of the status of your assigned orders.
+   * These orders will now appear in the Ready to Ship tab."
+"How to change the payment mode of my order?
+
+Here's how you can change the payment mode of your order:
+   * Go to Orders page from the bottom menu.
+   * Find the order for which you want to update the payment mode and slide it to left to find quick actions.
+   * Select Edit order option. Scroll down to Payment method section and change the payment mode from COD to Prepaid or Prepaid to COD. 
+   * Scroll to bottom and click on Update to proceed with the changes.
+   * Note: You can change the payment mode before scheduling the pickup. After that, you can only change from COD to Prepaid (not Prepaid to COD) if you have activated the Payment Mode Settings. 
+               Terms and Conditions:
+               1. Not applicable for shipments which are out for delivery.
+               2. Only applicable for Ecom Express, Delhivery & Xpressbees.
+               3. Payment mode change is allowed only once and cannot be reverted."
+"How to download a manifest?
+
+Follow these steps to download manifest:
+   * Select ""Pickup Scheduled"" Orders and Download Manifest:
+   * Go to Orders page from the bottom menu and open the Pickups & Manifests tab.
+   * For a Single Order - Look for your order and click the Download Manifest option.
+   * For Bulk Orders - Simply select all of your orders for which you want the manifest to be downloaded. Once you've made your selection, click on the three-dots menu at the bottom and select the Download Manifest option. "
+"How to enable Order Verification setting?
+
+   * Go to More > Settings > Shipment Features > Shipment Features.
+   * Under Shipment Features, you'll find the ""Enable Order Verification"" option.
+   * Now, simply turn the toggle on to enable COD and Prepaid Order verification."
+"How to edit an order?
+
+Here's how you can edit your order:
+   * Go to Orders page from the bottom menu.
+   * Find the order for which you want to update the payment mode and slide it to left to find quick actions.
+   * Select Edit order option. You can edit shipment's weight & dimensions, payment mode, pickup address, and customer's details.
+   * Scroll to bottom and click on Update to proceed with the changes."
+"How to upload Eway Bill for forward orders?
+
+Uploading an Eway Bill is mandatory for shipping goods worth more than Rs. 50000. In Shiprocket, you can upload your Eway bill from these tabs in Orders page:
+   1. Ready to Ship Tab, or
+   2. All Tab
+Follow the steps below to upload Eway Bill:
+ For a Single Order: 
+   * Go to Orders page from the bottom menu open Ready to Ship tab to find your order.
+   * Alternatively, use the search bar on home page to find the order for which you want to upload the Eway bill. Enter the AWB or order ID to locate the order quickly.
+   * Click on the ‘Schedule Pickup’ button, which is located right below your order.
+   * Next, a screen will appear where you can enter the necessary information and upload your Eway Bill.
+
+ For Bulk orders:
+   * Go to '[Orders](https://app.shiprocket.in/seller/orders/new)' section from the left menu.
+   * Under 'Ready To Ship' tab click on the 'Upload Eway Bill' icon at top-right of the page.
+   * Next, a pop-up window will appear, allowing you to download a list of all orders for which an Eway Bill is required.
+   * After that, download the sample CSV file, replace the dummy data with your data, and upload it again. "
+"What is Pickup Escalation?
+
+* In Shiprocket, pickup escalation refers to the process of escalating or raising an issue related to a pickup request that hasn't been completed as expected. This feature allows users to notify Shiprocket's support team about any pickup-related issues that require immediate attention or resolution.
+* You can raise an issue related to pickup by following the below steps:
+   * Go to ‘Orders’ page from the bottom bar.
+   * Click on ‘Pickup Id & Manifest’ tab from the header.
+   * Locate the shipment which have pickup related issue.
+   * Click on pickup ID and then order ID to open order details page.
+   * Click on Get Help option on the top right side.
+   * Click on pickup Escalation to escalate the issue."
+"How to preview label on Shiprocket?
+
+To preview and customize your shipping label:
+* Click on More from the bottom menu and select Settings from the options.
+* Click on Labels & Invoices > Set Shipping Label Preferences
+* Here, you can preview your label, select the format (e.g. A4, 4x6), and customize the fields shown on the label (like seller address, brand name, etc.).
+* Scroll to the bottom to find Preview label option to generate a preview.
+* Click on Save to confirm your changes."
+"How to get shipping bill or invoice for an AWB?
+
+To download the shipping invoice for a specific AWB:
+
+* Use the search bar at the top of Home page to search by AWB number.
+* Alternatively, go to the Orders page from the bottom bar and find your order in the Ready to Ship or Pickup Id & Manifest tab.
+* Swipe left on the order card and select Download Invoice."
+"I marked an order as self-fulfilled by mistake. How to unmark it?
+
+Once an order is marked as self-fulfilled, it cannot be reversed. You'll need to create a new order and proceed with fulfillment again."
+"How to update shipper/seller address in labels?
+
+Once an AWB has been assigned, seller details on the label cannot be edited. To update the seller address, cancel the current order and create a new one with the correct address."
+"How to remove ‘Powered by Shiprocket’ from shipping labels?
+
+This setting isn't available in the seller panel. To remove the ‘Powered by Shiprocket’ branding, please contact Shiprocket Support or reach out to your KAM (Key Account Manager)."
+"How to edit Order ID for my order? Can I edit Order ID?
+
+You cannot edit the order ID of your order once it has been created. You can change other details but Order ID will be same."
+"I want to change customer's phone number. How do I change phone number for an order?
+
+To change customer's phone number for an order, follow these steps:
+
+1. Search for your order by entering the AWB or Order ID in the search bar.
+2. Alternatively, you can go to the Orders page and find the order under the New tab.
+3. Slide the order card to the left and select 'Edit Order'.
+4. Here you can edit order details, including the phone number.
+5. After making the necessary changes, click on the 'Update Order' button to save.
+
+Note: You can only change the pickup address and phone number before assigning the courier."
+"I want to download order invoice. How to download order invoice?
+
+To download invoice for an order, follow these steps:
+
+1. Search for your order by entering the AWB or Order ID in the search bar on Home page.
+2. Alternatively, you can go to the Orders page and find the order under one of the tabs.
+3. Slide the order card to the left and select 'Download Invoice'. If option not available, click on three-dots menu and select the Download Invoice option.
+4. Your invoice will be downloaded as pdf."

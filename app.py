@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 from rag_engine import RAGEngine
 
 st.set_page_config(page_title="Shiprocket KB Checker", layout="wide")
@@ -19,39 +20,40 @@ with st.sidebar:
         api_key = st.text_input("API Key", type="password")
     
     st.divider()
-    st.header("Upload KB")
-    uploaded_file = st.file_uploader("Upload a document", type=["txt", "md", "csv"])
+    st.header("Knowledge Base")
+    if st.button("Reload Knowledge Base"):
+        st.session_state.kb_loaded = False
 
 # Initialize Session State
 if "rag_engine" not in st.session_state:
     st.session_state.rag_engine = None
-
 if "messages" not in st.session_state:
     st.session_state.messages = []
+if "kb_loaded" not in st.session_state:
+    st.session_state.kb_loaded = False
 
-# Handle Upload
+# Automatic or Triggered Ingestion
 is_ready = (provider == "ollama") or (api_key)
 
-if uploaded_file and is_ready:
-    if st.button("Process Document"):
-        with st.spinner("Processing..."):
-            try:
-                # Initialize engine if needed or updated
-                engine = RAGEngine(api_key, provider, model_name)
-                msg = engine.ingest_file(uploaded_file.getvalue(), uploaded_file.name)
-                st.session_state.rag_engine = engine
-                st.success(msg)
-            except Exception as e:
-                st.error(f"Error: {e}")
+if is_ready and not st.session_state.kb_loaded:
+    with st.spinner("Scanning and Ingesting KB folder..."):
+        try:
+            engine = RAGEngine(api_key, provider, model_name)
+            msg = engine.ingest_directory("KB")
+            st.session_state.rag_engine = engine
+            st.session_state.kb_loaded = True
+            st.success(msg)
+        except Exception as e:
+            st.error(f"Error loading KB: {e}")
 
 # Chat Interface
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
-if prompt := st.chat_input("Ask a question about your documents"):
-    if not st.session_state.rag_engine:
-        st.warning("Please configure the provider and upload a document first.")
+if prompt := st.chat_input("Ask a question about Shiprocket"):
+    if not st.session_state.rag_engine or not st.session_state.kb_loaded:
+        st.warning("Please configure the provider and ensure KB is loaded.")
     else:
         st.session_state.messages.append({"role": "user", "content": prompt})
         with st.chat_message("user"):

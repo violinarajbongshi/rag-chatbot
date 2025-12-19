@@ -1,0 +1,207 @@
+chunk_content
+"How to create a return order in Shiprocket Mobile App?
+
+Please follow the steps below to create a return order in Shiprocket App:
+* Click on Add Order from the bottom menu.
+* Select ‘Return Orders’ from the list appearing.
+* Start creating a return order by adding;
+* Select Return Address
+* Select Existing Customer for Pickup
+* Enter Customer Details for Pickup
+* Add Order Details:
+  * Order Details:
+     * Order ID
+     * Order Date
+     * Order Channel
+  * Product Details:
+     * Product Name
+     * Quantity 
+     * Unit Price
+     * SKU
+     * Tax Rate (Optional)
+     * Discount (Optional)
+* Then, click on 'Next'
+* Add Package Details:
+  * Weight
+  * Package Dimensions
+* Add Return Details:
+  * Select Return Reason
+  * Upload images of your order (this step is optional)
+* Then, click on 'Create Return Order'
+* Next, find a courier partner and request a pickup for your return order by clicking on 'Ship Now' button"
+"How to check for my return order on the mobile app?
+
+To check your return orders, follow these steps:
+1. Go to the 'Orders' tab from the footer.
+2. Next, go to the 'Returns' tab present in the Header of the page.
+3. You can search for a particular shipment using the Order ID, AWB or the phone number from the search Bar present on the top of the page.
+4. If you want to check for some shipments with some particular Filters, Click on the Filters button present in the top right corner of the page.
+5. Here, you can apply the filters of your choice.
+6. After searching for the shipment, You can click on the more button present adjecent to the order number.
+7. For tracking the order, click on the Track order Button. "
+"How can i check for my RTO shipments in shiprocket mobile app?
+
+For checking the RTO shipments, follow these steps:
+
+1. Click on the 'Orders' tab present in the footer of the page.
+2. Click on the 'RTO' tab present in the header of the page.
+3. Here you can check for the RTO shipments.
+4. For searching a particular shipment you can enter the AWB/Order ID/ Phone number associated with the order in the search bar present on the top of the page.
+5. For applying some particular filter, click on the 'Filters' button present on the top right corner.
+6. Here you can apply the filters required."
+"Why are there additional charges for weight and RTO on my account?
+
+* When there is a difference between the weight entered by the seller and the actual weight shared by the courier partner, additional charges applied on the seller. 
+* For RTO, if the order is to be returned to the origin, the additional charges are the standard charge taken by the courier company."
+"What happens if I don’t upload an Eway Bill for my RTO shipment?
+
+Non-compliance with the Eway bill rules can result in both monetary and non-monetary loss. We, at Shiprocket or our associated courier partners, do not take any responsibility in such cases. "
+"What is RTO and what are the possible reasons behind RTO? 
+
+RTO stands for Return to Origin, indicating a shipment is being returned to the sender due to multiple failures in delivery reattempt. The possible reasons for RTO include but not limited to: 
+1. Incorrect address 
+2. Recipient not available 
+3. Refused delivery 
+4. Package damaged during transit  "
+"Will I be charged for RTO?
+
+Yes, you will be charged for your RTO shipments. RTO rates depend on your shipment weight and zone. Apart from that, different couriers have different RTO rates. You can view the estimated RTO charges in the Rate Calculator, or at the time of courier assignment. "
+"Very High RTO Score and actions on it
+The **Very High Risk RTO Score** feature is designed to identify orders with a critical risk of Return to Origin (RTO). This score is based solely on the buyer's past RTO history, with a staggering **82% likelihood** of RTO on predictions within this category.
+
+By leveraging this insight, you can take proactive measures to reduce your RTOs and address high-risk orders before shipping, ensuring a more efficient delivery process!"
+"How many attempts are made for the RTO?
+
+There will be no attempts made to deliver the order to the buyer after an RTO. Before RTO 3 attempts will be made to deliver the order unless the NDR Reason is customer refused OTP verified. If after 3rd attempt the order is not delivered successfully, then the order will return to origin (RTO)."
+"Can I request a re-delivery after an RTO?
+
+There will be no attempts made to deliver the order to the buyer after an RTO. Before RTO 3 attempts will be made to deliver the order unless the NDR Reason is customer refused OTP verified. If after 3rd attempt the order is not delivered successfully, then the order will return to origin (RTO)."
+"Will I receive a refund if my package is marked as RTO?
+
+Before RTO 3 attempts will be made to deliver the order unless the NDR Reason is customer refused OTP verified. If after 3rd attempt the order is not delivered successfully, then the order will return to origin (RTO). In case of RTO the forward and the reverse charge will be borne by the seller."
+"How long does it take for an RTO shipment to reach back to the sender?
+
+When the shipment is marked for RTO. the Expected RTO Delivery date will be updated on the order. You can view the RTO EDD on the Orders Page under the RTO tab."
+"Who pays for the return shipping costs in case of an RTO?
+
+Before RTO 3 attempts will be made to deliver the order unless the NDR Reason is customer refused OTP verified. If after 3rd attempt the order is not delivered successfully, then the order will return to origin (RTO). In case of RTO the forward and the reverse charge will be borne by the seller."
+"How can I track the status of my RTO shipment?
+
+When the shipment is marked for RTO. the Expected RTO Delivery date will be updated on the order. You can view the RTO EDD on the Orders Page under the RTO tab."
+"Can I stop an RTO shipment from returning to the sender?
+
+Once a shipment gets RTO it will be shipped to the seller or to the address specified by the seller. An RTO shipment can't be stopped from returning back to the seller. If the shipment is attempted for delivery back to the seller and is not able to be delivered to the seller and RTO NDR will be raised on the shipment. The courier will make 3 delivery attempts to deliver the shipment back to the seller. If the shipment is still not delivered after 10 days the shipment will be disposed off by the courier."
+"Where can I view my RTO orders?
+
+* Follow the steps below to view your RTO orders:
+   * Go to the Orders page from the bottom menu.
+   * Open the RTO tab from the top. You will be able to view all RTO orders in all statuses from this page."
+"What is RTO Initiated, Delivered and Acknowledged?
+
+   * RTO Orders are those orders that were marked undelivered due to some reason and have now been returned to the origin or the shipper's address. 
+   * You can now find three classifications for your return orders.
+   * Initiated: RTO initiated refers to the stage of your shipment that has been just marked as RTO by the courier company. After three failed attempts of delivery, the courier company marks a shipment as RTO.
+   * Delivered: RTO delivered means that your return shipment has been delivered to your pickup address.
+   * Acknowledged: RTO acknowledged means that a seller has received the RTO shipment."
+"What is RTO Delay Escalation and How to Raise it?
+
+   * The RTO Delay Escalation feature has been implemented to address RTO Delay issues. Previously, there was no way to determine when RTO Shipments would arrive, but with the new feature, an estimated delivery date for RTO delivery is provided, offering a clear indication of when the shipment is expected to arrive.
+   * So, If your shipment is in either RTO Initiated or RTO In Transit statuses and its RTO EDD (Estimated Delivery Date) is breached, you can escalate an RTO Delay.
+   * Steps to Raise RTO Delay Escalation:
+   * Go to the Home page from the bottom menu.
+   * Search the AWB Number for which you want to raise the dispute. 
+   * Click on the Order ID to open the order details.
+   * Click on the ‘Get Help’ option at the top and click on Delivery Delay option. 
+   * An escalation will be raised for your order."
+"How to create return order for a delivered order?  
+
+Please follow the steps below to create a return order from ‘delivered’ orders on your Shiprocket account:
+   * Go to the Orders page.
+   * Navigate to Delivered section from the top menu bar.
+   * Locate the order for which you want to initiate a return by entering either the AWB or Order ID into the search bar positioned at the top of the page.
+   * A new page with prefilled details about your order will open.
+   * By default, your buyer’s address will become the pick-up address and your pick up address will become the destination address.
+   * You can change your drop address or add a new address if you have multiple saved addresses. Click on Next to see Order details.
+   * On the ‘Order Details’ page enter these details:
+   ** Return Order ID (Auto-generated)
+   ** Return date
+   ** Channel Name (Fetched Automatically)
+   ** Product Details
+   * Then click on Next to fill Package Details: Weight and Dimensions
+   * We would suggest you take help from your return product's weight & dimensions to fill this information.
+   * Finally, select Return reason, add comments(optional) and upload images of product from buyer(if available).
+   * Once the return order is created it will be displayed in the ‘returns’ page. You can click on the ‘Initiate Return’ button to ship your return order.
+   * On clicking ‘Initiate Return’ button, you will navigate to the courier partner selection page.
+   * Select courier partner as per your requirement and click on the ‘Initiate Return’ button to assign the courier."
+"Why was my package returned to origin (RTO)?
+
+Since your package was returned to origin (RTO), it's likely that the courier executive made a maximum of 3 attempts to deliver the order before marking it as RTO or if there was a Customer Refused OTP Verified scan received. However, the exact number of attempts may vary depending on the selected courier partner and the reason for non-delivery (NDR). The package can also go to RTO if from the Website or from the app you have clicked RTO for the shipment. "
+"Which courier partners support Return Quality Check?
+
+The following partners support QC-enabled returns and exchanges (availability may depend on selected QC parameters):
+1. Ekart
+2. Xpressbees
+3. Ecom Express
+4. Shadowfax
+5. Bluedart
+6. Delhivery"
+"How to reassign a return order?
+
+Please follow the steps below to re-assign a return order on Shiprocket panel:
+   * Go to 'More' >> 'Returns from the bottom menu.
+   * Find your order from the list and open the order to view full details.
+   * Click on the three dots menu on the top right and select Reassign.
+   * Choose from the courier partners to reassign courier.
+Note: This functionality is not available in Out for Pickup status."
+"How to cancel a return order?
+
+For the cancellation of a return order on Shiprocket panel follow the below steps:
+   * Go to 'More' >> 'Returns from the bottom menu.
+   * Find your order from the list and open the order to view full details.
+   * Click on the three dots menu on the top right and select Cancel Return.
+   * A pop up will appear for cancellation confirmation. Click on 'Cancel Order' if you are sure about cancellation.
+Note: Cancellation functionality is not available in out for pickup status. "
+"What are the modes of Refund I can offer to my customers?
+
+   * There are 4 modes of refund powered by Shiprocket:
+   * Manual Refund Mode: If you process your refunds manually to a buyer, you can update the refund status on Shiprocket panel using this mode by providing the UTR number (Unique Taxpayer Reference No.)
+   * Back to source: The refunded amount is credited back by using the original payment method. This is only applicable for Prepaid orders.
+   * Store Credit: If the buyer has chosen Store Credit as a refund option, you can create a Discount Coupon for the amount of the refund and share it with the buyer directly from the Seller Panel.
+   * Instant Refund: Instant Refund Modes, includes seamless options like UPI, Bank Transfer, and Payout Links, as well as the auto-refund feature.
+   * You can configure your Refund Settings from Settings >> Refund Settings."
+"How do I check my return orders?
+
+You can find all your return orders at a single place. Go to 'More' >> 'Returns' from the bottom menu to see all your return orders."
+"How to cancel the return orders in bulk?
+
+To cancel the return orders in bulk, follow these steps:
+1. Go to 'More' >> 'Returns from the bottom menu.
+2. Long press to select the orders that you want to cancel.
+3. Then, click on the three-dots menu and Cancel Orders.
+4. A pop will appear, then click on 'Yes, Cancel it!' button."
+"How to check Return Pickup Error orders?
+
+To check the Return Pickup Error orders, follow these steps:
+   * Go to 'More' >> 'Returns from the bottom menu.
+   * Find the pickup error orders in the list and open the order to view full details."
+"How many pickup attempts are made for return orders?
+
+For return orders, we make up to three pickup attempts. However, if the quality check (QC) fails, no further attempts are made."
+"How Many SKUs Are Allowed in One QC Return Order?
+
+You can add up to 2 SKUs in one QC return order."
+"How Many Returns Can Be Created for One Forward Order?
+
+You can only create one return order for each SKU from a forward order."
+"I cannot find any option to schedule a pickup for returns.
+
+For returns, you do not need to schedule a pickup. It is automatically done once the AWB is assigned."
+"Do we have an API for returns?
+
+Yes, Shiprocket provides an API for handling returns. Follow this link: https://apidocs.shiprocket.in/#621cf561-e4d9-4a76-beaf-2f5ba467db96"
+"how to create a QC reverse/return order via API?
+
+To create a reverse order with a quality check via API, you can use the 'Create Reverse Order' API endpoint. This endpoint allows you to create a reverse order with a quality check by specifying the 'qc_enable ' parameter as 'true' in the API request. Here's an example of the API request:{  ""order_id"": ""ORDER_ID"",  ""return_reason"": ""RETURN_REASON"",  ""qc_enable "": true}. Make sure to replace 'ORDER_ID' and 'RETURN_REASON' with the actual values for your order. For more information on the 'Create Reverse Order' API endpoint, please reach out to our support team for further assistance."
+"Is QC product name mandatory?
+
+Yes, it is mandatory"

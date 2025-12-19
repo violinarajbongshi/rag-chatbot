@@ -1,0 +1,82 @@
+chunk_content
+"Is it possible to reassign my shipment to a different courier partner once the manifest has been generated using Shiprocket Mobile App?
+
+Yes, even if you've generated a manifest for your shipment, you can still reassign it to a different courier partner. Please follow the steps below to learn more:
+* Go to the Orders page from the bottom bar and find your order under Ready to Ship tab.
+* Alternatively, you can search your order ID using the search bar at top of the Home page.
+* Next, go to the top-right corner of your screen and click on the 'more' (3 dot) icon.
+* From the list of options, choose 'Reassign.' You'll be taken to a new page where you can choose another courier partner for your shipment."
+"Can I integrate channel using Shiprocket Mobile App?
+
+We recommend you to use web panel for integration. 
+* Visit our web panel and connect your channel with Shiprocket.
+* https://app.shiprocket.in/channels"
+"How to set the courier priority using Shiprocket Mobile App?
+
+* Please follow the steps below to set the courier priority in your Shiprocket App:
+   * Go to the bottom menu and click on the More icon.
+   * Here, go to 'Settings' and click on ‘Couriers’ >> ‘Set Courier Priority’.
+   * You can set the courier priority on the basis of following methods:
+      * Recommended By Shiprocket
+      * Cheapest
+      * Fastest
+      * Best Rated
+      * Custom
+   * To set a Custom Courier Priority, please visit our web panel https://app.shiprocket.in/courierPriority
+
+Note: You cannnot set the Custom courier priority using Shiprocket Mobile App."
+"How can i check for the courier partners available from one pincode to another on shiprocket mobile app? How can i check for the charges of shipment to be shipped using shiprocket mobile app?
+
+To check the serviceable delivery partners available from one pincode to another follow the following steps:
+
+1. Click on the 'Shipping Rate Calculator' Button present in the 'Quick Actions' options.
+2. Select Whether the order is domestic or international from the header.
+    A. For domestic Orders:
+         1. Select the order type.
+         2. Enter the pickup and delivery pincode.
+         3. Enter the approximate dead weight and the package dimensions of the shipment.
+         4. Select the payment method and enter the order value of the shipment.
+         5. After the entering the information click on the Calculate ahipment rate.
+         6. Next, You will be redricted to the page where you can fine the available courier partners and there prices.
+    B. For international orders:
+         1. Enter the pickup and delivery Country.
+         2. Enter the approximate dead weight and the package dimensions of the shipment.
+         3. After the entering the information click on the Calculate ahipment rate.
+         4. Next, You will be redricted to the page where you can fine the available courier partners and there prices."
+"How to activate and deactivate courier partners?
+
+* Shiprocket offers the flexibility to activate and deactivate courier partners, and you can manage this directly from both the Shiprocket panel and the Shiprocket mobile app. Here's how:
+   * Click on ‘More’ tab located at the bottom.
+   * Click on ‘Settings’ >> ‘Couriers’ >> ‘Courier Companies’.
+   * Click on the ‘Deactivated’ tab to view all deactivated courier partners.
+   * Here, you'll find a list of courier partners that are currently inactive.
+   * To activate a specific courier partner, locate it in the list and click on the toggle switch. This will enable it for your shipments.
+   * Similarly, to deactivate a courier partner, click on the toggle switch again to turn it off."
+"Is it possible to reassign my shipment to a different courier partner once the manifest has been generated on Mobile App?
+
+* Yes, it is possible to reassign your shipment to a different courier partner even after the manifest has been generated. Here's how you can do it:
+* Click on the 'Shipments' icon from the footer of the page.
+* Click on the ‘Ready To Ship’ tab to locate the order you want to reassign.
+* Use the search bar present on top of the screen to find the Order ID or AWB that you want to cancel.
+* Open the order and click on the three dots menu icon at the top right. A list view will appear.
+* Next, click on the ‘Reassign’ option.
+* You will then navigate to the courier selection page where you can choose a different courier partner for the shipment."
+"till what status can I reassign a courier?
+
+You can reassign the courier until the status reaches 'Out for Pickup' (OFP)."
+"i want to hide sku name on my amazon courier label
+
+You cannot make any changes to the Amazon label, including hiding the SKU name."
+"How Many Attempts Will Be Made by the Courier to Pick Up My Order?
+
+The courier will make 3 attempts to pick up your order. If the pickup is unsuccessful after three attempts, no further attempts will be made.
+If you encounter any issues with the pickup, such as the courier not attempting the pickup or making fake attempts, please escalate the issue and provide proof of the fake attempt. This will help us address the problem promptly."
+"In what circumstances can different pickup IDs be generated?
+
+* Your shipments can have two different pickup IDs if:
+   * One is scheduled before the pickup cut-off time, and the other is scheduled after pickup cut-off time on a given day.
+   * The pickup addresses for both shipments are different.
+   * Both shipments are scheduled to be delivered by different courier companies."
+"I'm getting ""None of courier in weight bracket above 5kg is serviceable. Request you to try the shipment via single ship from all orders screen
+
+This error states that your order weight is greater than 5 Kg but the couriers serviceable with us are of lower bracket. In such cases, you are charged higher than normal. If you'll go to the panel, you'll be able to check the prices after ""Ship now"" button and ship them. "

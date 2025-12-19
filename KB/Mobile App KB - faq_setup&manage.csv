@@ -1,0 +1,221 @@
+chunk_content
+"How to connect shopify channel on mobile app?
+
+To add a Shopify channel to Shiprocket mobile app 
+1. Begin by clicking the 'More' option at the bottom of your Shiprocket app.
+2. Next, click on 'Channel Integrations' dropdown from the menu.
+3. Proceed by clicking on 'Integrate with Shopify'.
+4. In this section, you will see all the channels currently added to your account. To add a new channel, click on the plus icon. 
+5. Input your store URL in the designated field and click on 'Connect to Shopify' to initiate the connection.
+6. You will then be redirected to the Shopify seller login page. Here, enter your email ID and password, or log in using Gmail or other available options. 
+7. Once logged in, the app auhtorization page will open where you can verify your account integration with Shiprocket by clicking ""Install app"".
+8. Now, you will be redirected to the Shiprocket channel page. Here, you can edit your shopify channel to modify it as per your preferences."
+"What is UPC?
+
+UPC stands for Universal Product Code. It is a standardized barcode symbology used for tracking trade items in stores. UPCs are widely used for identifying products, tracking inventory, and facilitating the checkout process at retail stores. Each UPC consists of a unique series of digits that are encoded into a barcode, allowing for quick and accurate identification of products throughout the supply chain."
+"What is EAN?
+
+EAN stands for European Article Number, which is now known as International Article Number. It is a standard barcode symbology used worldwide to identify products at the point of sale. EAN barcodes are similar to UPC barcodes but are more commonly used outside of North America. EAN barcodes consist of a unique series of digits encoded into a barcode format, allowing for efficient tracking and management of products throughout the supply chain."
+"What is ISBN?
+
+ISBN stands for International Standard Book Number. It is a unique identifier for books, recognized worldwide. Each ISBN is a 13-digit number that serves as a unique identifier for a specific edition of a book. ISBNs are used by publishers, booksellers, libraries, and other entities involved in the book supply chain to accurately identify and manage books. This standardized numbering system helps streamline book ordering, distribution, and inventory management processes."
+"In my channel catalogue, Select package is showing empty, why?
+
+There is no direct way of adding packages through catalogue. To select a package for a product in your catalogue, you need to first create a package and then map it to the product."
+"how to delete all products in the catalogue?
+
+There is no option to delete products once they are added to the catalogue, you can only edit product weight and dimensions or update details by bulk uploading a file. If you need detailed steps to edit product details, let me know."
+"why is my channel disconnected? how to fix the issue?
+
+Your channel might be disconnected because of authentication error. It might be possible that your API keys have changed or password has been updated due to which you are getting this issue. To fix the issue, try to reconnect or reauthorize your channel from the troubleshooting option. "
+"what to add in order ID and channel ID on bulk upload csv orders?
+
+You can add a unique sequence of numbers for your orders in the Order ID column and fill in a channel name for each order."
+"How to delete or remove a channel or sales channel?
+
+You cannot delete a channel once it's created. You can only deactivate it if required."
+"Channel connected but orders are not getting synced.
+
+There could be a few reasons for this issue. Firstly, ensure that the Order Sync is turned On for your integrated channel. If it's already On, also check the 'Status to fetch' field this should be same as your sales channel status. try manually triggering the order synchronization process by clicking on the 'Sync Order' button located at the top right corner of the orders page. This will prompt Shiprocket to fetch the latest orders from your integrated sales channels. "
+"My WooCommerce orders are not synced with Shiprocket. What should I do?
+
+There could be a few reasons for this issue. Firstly, ensure that the Order Sync is turned On for your integrated channel. Make sure the 'Status to fetch' field under the 'Pull Order Statuses' section should be same as WooCommerce. If issue still persist, then create a support ticket
+"
+"How to Retrieve Old Orders from Sales Channels(Amazon, Shopify, WooCommerce, Magento, OpenCart,etc)?
+
+Once you connect any sales channel (such as Amazon, Shopify, Magento, WooCommerce, etc.) to Shiprocket, we pull the orders from the last 30 days."
+"How Many Channels Can I Add to My Account?
+
+You can add up to 100 channels to your account."
+"Is Shiprocket have a plugin for WooCommerce?
+
+Shiprocket have a plugin for WooCommerce, allows to check the serviceability of pincodes for courier services."
+"Can i delete a channel?
+
+No, once a channel is integrated, you cannot delete it. You can only enable or disable the channel."
+"Can I use  split shipment with shopify?
+
+Yes, split shipment is allowed with Shopify, but only in SRF."
+"can i connect my shopify store twice in one shiprocket account?
+
+No, you cannot connect your Shopify store twice in one Shiprocket account."
+"can I connect my shopify store to multiple shiprocket accounts?
+
+Yes, you can connect your Shopify store to multiple Shiprocket accounts."
+"what are channel products?
+
+Channel products are items that you upload in the channel catalog section. This allows for automatic input of weight and dimensions for orders fetched from the channel"
+"Why do I need to upload package images?
+
+Uploading photographs of your package is not required, but highly recommended. This allows us to determine the size and shape of your package.
+Note: Upload a minimum of three and a maximum of five package images. Please take pictures from various angles to give us a good idea of the dimensions and shape of your package."
+"Can I use my packaging?
+
+Yes, you can. If you don’t want to use our packaging, simply mention ‘Self’ in the Packaging Material column, or you can leave the cell empty. 
+Packaging Guidelines for Self-Provided Packaging:
+When using your own packaging materials, please ensure the following guidelines:
+Security: Your packaging should be secure and able to protect the contents of the shipment during transit.
+Labeling: Ensure all required shipping labels and documentation are correctly attached to your packaging.
+Size and Weight: Make sure your packaging complies with the size and weight restrictions of your selected shipping service.
+Fragile Items: For fragile items, use adequate cushioning to prevent damage during transit.
+Prohibited Items: Do not use packaging materials that violate any shipping carrier's policies or restrictions."
+"Will you charge me for packaging if my order remains undelivered or move to the RTO status?
+
+Yes, packaging charge will be applicable in this case."
+"Product dimensions are not fetching from shopify, what should I do?
+
+We do not retrieve dimensions from the channels directly. You'll need to upload the SKUs in the catalog for the orders to synchronize the weight and dimensions."
+"Can I repeat an sku in an order?
+
+No, you cannot repeat an SKU in an order. SKUs cannot be duplicated; instead, you can increase the quantity of the SKU."
+"what if I want to add a same sku two times in an order and charge nothing for one?
+
+You cannot directly repeat the SKU. Instead, you can increase the quantity of the SKU and adjust the price accordingly."
+"can I download the list of all my customers?
+
+No, you cannot download the customer data."
+"Can I remove or delete the customer data.
+
+No you cannot delete the customers data."
+"What is Etsy? Does Shiprocket Have Integration with Them?
+
+Etsy is an online marketplace focused on handmade, vintage, and unique factory-manufactured items. It provides a platform for independent sellers to offer a wide range of products, including jewelry, clothing, home decor, art, and craft supplies. Etsy emphasizes unique and creative goods, catering to a global audience looking for special, one-of-a-kind items.
+
+Yes, Etsy is our partner, and integration with Shiprocket can be done directly through the Etsy platform."
+"Can I exclude specific orders from being fetched?
+
+Yes, under Custom Preferences, you can define conditions to exclude specific orders using the Don’t Fetch Orders condition.
+Orders can be excluded based on:
+* Shopify Tag
+* Payment Status with Shopify Tag
+If an order matches both Fetch Orders and Don’t Fetch Orders conditions, the Don’t Fetch condition will take priority, and the order will not be fetched."
+"What happens if an order is canceled in Shopify?
+
+If an order is canceled in Shopify, it will automatically appear as ""Canceled"" in Shiprocket. This cannot be changed."
+"What happens if an order is self-fulfilled in Shopify?
+
+If an order is self-fulfilled in Shopify, it will be tagged as “Self-Fulfilled” in Shiprocket. This cannot be changed."
+"What happens to the ‘Return’ and ‘RTO Delivered’ statuses in Shopify?
+
+If a return is created in Shiprocket, a ‘Return’ tag will appear in Shopify. If an order status is RTO Delivered in Shiprocket, the ‘RTO Delivered’ tag will appear in Shopify."
+"Can sellers view which courier was assigned through fallback?
+
+Yes. In the Order Details → Shipment Info section, sellers can view a tag that says ""Fallback Assigned"" along with the courier partner’s name and AWB."
+"Are fallback preferences for courier assignment customizable?
+
+Yes. Sellers can define their preferred courier priority rules under the Courier Priority Settings. The fallback mechanism respects these rules when auto-reassigning."
+"Is this feature auto-enabled or requires setup?
+
+Smart Fallback Assignment is auto-enabled by default for all sellers. No manual setup is needed, but priority rules can be customized for more control."
+"How does the fallback system choose the next courier?
+
+The system follows your predefined seller rules and evaluates couriers based on performance, serviceability, and other internal metrics to assign the best available option."
+"Do I need to take any action if courier assignment fails?
+No. The reassignment happens automatically—no manual steps required."
+"Channel Integration: Importance of adding brand name. How to add brand name in channel?
+
+* Adding your brand name to your channel is extremely important as:
+   * We use your brand name in all buyer-facing communications such as; Email, SMS, Post Ship page, and Label. 
+   * It helps your buyer to easily recognize your brand which results in low RTO.
+   * People are more likely to purchase from a business that appears polished.
+* To know how to add your brand name to all your channels, please follow the steps below:
+   * Go to ‘More’ >> ‘Channel Integration >> Integrate with Shopify’ from the bottom menu.
+   * Here, find your channel and click on it to open Edit options.
+   * Here you can find two fields; Communication Brand Name and Brand Logo
+   * Add your brand name here in the given field. You can also upload your brand logo.
+   * To save your changes, finally click on ‘Update Channel and Test Connection’ button at the bottom. "
+"What Is a Pull Order Status Mapper? How do i get the order status from shopify to shiprocket?
+
+* A Pull Order Status Mapper allows you to match your eCommerce channel or website statuses with Shiprocket's order processing status. Follow the steps below on Shiprocket mobile app:
+   * Go to ‘More’ >> ‘Channel Integration >> Integrate with Shopify’ from the bottom menu.
+   * Here, find your channel and click on it to open Edit options.
+   *  On this page locate the 'Pull Order Statuses' header.
+   * You can enter multiple statuses separated by “,” under Status to fetch, PULL Prepaid orders, PULL COD orders fields.
+   * Click on 'Update Channel & Test Connection'.
+* Note: By default, we import unfulfilled orders for Amazon. If you are connecting any other channel, please mention all your order statuses that you want to map with Shiprocket's order processing status. "
+"What Is a Push Order Status Mapper? How do i show order status from shiprocket to shopify?
+
+* A Push Order Status Mapper helps you match your channel or website statuses with the default statuses of Shiprocket. By turning it on, you can select or create an order status which you want to push on your channel. When the Push Order Status Mapper is disabled, default push status mapping will work on your channel. 
+* Follow the steps below on Shiprocket mobile app:
+   * Go to ‘More’ >> ‘Channel Integration >> Integrate with Shopify’ from the bottom menu.
+   * Here, find your channel and click on it to open Edit options.
+   * Here, find the ‘Push Order Status’ header.
+   * Turn on the toggle button and click on Map Status. Now you can see the multiple statuses.
+   * You can map the statuses from the drop-down.
+   * Click on 'Update Channel & Test Connection'.
+* Note: Make sure you only mention the statuses you have on your channel."
+"How to add and search your customer's details in Shiprocket?
+
+Introducing Customer Profile - Get an overview of your customers' details at a single place
+The new Customer Profile features give you various insights about your buyers like;
+*  Total Orders
+* Total Revenue
+* Delivered Orders 
+* RTO Orders
+* Customer Contact Details
+* Delivery Address (default)
+* Recent Shipment
+By default, we save customer details against every order that you ship with Shiprocket. But, you can also add other customers' details in Shiprocket to keep all your data in one place. Follow the steps below to add your customer's details in Shiprocket:
+* Go to ‘More’ >> ‘Customers’  tab from the bottom menu.
+* Here, click on plus icon '+' on the bottom to add a new customer.
+* Add the required details in the field as mentioned below:
+   * First Name
+   * Last Name
+   * Email
+   * Phone
+   * Address line 1
+   * Address line 2
+   * City
+   * State
+   * Country
+   * Pincode
+* Then, click on the ‘Add Customer’ button.
+You can check the updated customer's details by following the steps below:
+* Go to the More >> Customer from the bottom menu. Click on search bar present at the top.
+* Here you can easily search your customers by either using the name, email, phone number or pincode."
+"How to activate courier partners?
+
+* Shiprocket offers the flexibility to activate and deactivate courier partners, and you can manage this directly from Shiprocket mobile app. Here's how:
+   * Go to the ‘More’ >> ‘Settings’ >> 'Couriers' section from the bottom menu.
+   * Click on ‘Courier Companies’. Here, you'll find a list of all available courier partners.
+   * Search for your courier that you want to activate under Deactivated or All tab.
+   * To activate a specific courier partner, click on the toggle.
+   * Once activated, the courier partner will be enabled for your shipping needs, and you can start using it for your shipments."
+"What is SKU? Give the uses of SKUs.
+
+* SKU stands for ""Stock Keeping Unit."" It is a unique alphanumeric code or number assigned to each distinct product in a retailer's inventory or stock. SKUs are used for inventory management purposes to track and identify products throughout various stages of the supply chain, from procurement to sales.
+* Uses of SKU:
+   1. Inventory Management: This allows for accurate counting, tracking of stock levels, and efficient replenishment.
+   2. Order Fulfillment: SKUs are used to identify specific products when fulfilling customer orders. They ensure that the correct items are picked from the inventory and shipped to the customer.
+   3. Warehousing: In warehouses, SKUs are used to organize and locate products efficiently.
+   4. Sales Analysis: By tracking the sales of each SKU over time, businesses can identify popular products, slow-moving items, and trends in customer preferences.
+   5. Pricing and Promotions: SKUs are often associated with pricing information, allowing businesses to apply discounts, promotions, and pricing strategies to specific products or product variants.
+   6. Supply Chain Management: SKUs help streamline the supply chain by providing a standardized method of identifying products. This facilitates communication between suppliers, manufacturers, distributors, and retailers.
+   7. Product Variants: SKUs are particularly useful for businesses that offer multiple variants of the same product, such as different sizes, colors, or configurations. Each variant is assigned a unique SKU, making it easy to differentiate and track.
+   8. E-commerce and Online Retail: SKUs play a crucial role in online retail, where customers often search for specific products or product variants. Having unique SKUs ensures accurate product listings and helps prevent confusion during the online shopping process."
+"What is Shadowfax Instant?
+
+You can now schedule time-slotted pickups by selecting a 3-hour pickup window (morning, afternoon, or evening) for better predictability."
+"How many pickup slots can I choose from in shadowfax instant?
+
+There are three slots available — morning, afternoon, and evening — across two days (today and tomorrow)."

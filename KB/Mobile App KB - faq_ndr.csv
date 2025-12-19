@@ -1,0 +1,45 @@
+chunk_content
+"How to escalate my NDR reattempt request using shiprocket mobile app?
+
+* Here's how you can escalate your NDR reattempt request:
+   * Open Orders page from the bottom menu.
+   * Go to In-transit tab and filter out your ""Undelivered"" order. Alternatively, you can also search your order ID on the home page.
+   * Select your order and click on the ‘Get Help’ button. 
+   * Here, select the ‘Non-Delivery Escalation’ from the options and then click on Reattempt or you can click on the Contact Buyer > Initiate call button to contact your buyer directly from the app.
+   * Go ahead and attach any proof in the form of call recording, or chat screenshots. You can also get a missed call from your buyer's registered mobile number on the displayed phone number. We will consider this ""missed call"" as a reattempt verification response.   
+   * Enter your remarks and escalate your reattempt request. 
+   * Important Points to Remember:
+      * Proofs are not mandatory at the time of escalation. However, it is advisable to always escalate your reattempt request with valid proofs to increase the chances of delivery. 
+      * You have 6 attempts to escalate/re-escalate an NDR reattempt request."
+"How to process an NDR shipment using shiprocket mobile app?
+
+* Shiprocket users can now take action on their NDR shipments directly from their mobile app. Please follow the steps below to know more:
+   * Open Orders page from the bottom menu.
+   * Go to In-transit tab and filter out your ""Undelivered"" order. Alternatively, you can also search your order ID on the home page.
+   * Select your order and click on Get Help on the next screen.
+   * Click on the ""Non-Delivery Escalation"" tab to take any action. You can either:
+      * Make a reattempt request
+      * Mark it RTO, or
+      * Contact Buyer
+* If you opt for reattempt and the reason shared by the courier company is incorrect:
+   * Provide proof in the form of a chat screenshot, or upload your conversation with your buyer. You can also get a missed call from your buyer's registered mobile number on the displayed phone number. We will consider this ""missed call"" as a reattempt verification response.  
+* If you opt for reattempt and the reason shared by the courier company is correct:
+   * Select a reattempt date and provide the required details. 
+* If you want to mark your shipment RTO:
+   * In this case, your order will be returned to the original pickup location. You can also add remarks if you have any. 
+* Note: Courier partners only make 3 attempts to deliver your order to the end customer post which they will mark your order as RTO."
+"Where can I see the NDR dashboard using shiprocket mobile app?
+
+1. Login to your shiprocket app.
+2. Scroll the home page to the bottom, and clickon the 'View All Metrics' Tab.
+3. Select NDR, from the header.
+4. Here you will find your NDR dashboard.
+5. You can also change the dates according the data required."
+"How can i check for my NDR shipments in shiprocket mobile app?
+
+For checking the NDR shipments, follow these steps:
+1. Click on the 'Orders' tab present in the footer of the page and go to In-transit tab.
+2. Here you can check for the NDR shipments by filtering 'Undelivered' orders.
+3. For searching a particular shipment you can enter the AWB/Order ID/ Phone number associated with the order in the search bar present on the top of the page.
+4. For applying some particular filter, click on the 'Filters' button present on the top right corner.
+5. Here you can apply the filters required."

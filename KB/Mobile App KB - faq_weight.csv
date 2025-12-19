@@ -1,0 +1,23 @@
+chunk_content
+"How to check Weight Discrepancy in the Mobile App?
+
+The Weight Discrepancy page shows you all the shipments where a weight discrepancy has been raised by the courier. 
+To take action on your pending weight discrepancy, please follow the steps below:
+* Open your app and go to ‘Weight Discrepancies’ from the More option.
+* Select your order to see further details. 
+* Here, you can see the difference between charged and entered weight.
+* You can now 'Accept Dispute' or 'Reject Dispute' against it. "
+"Shiprocket Mobile App: what are the important Shipment weight terms?
+
+New Discrepancy: New weight discrepancy generates when there's a difference between your shipment's applied and actual weight.  
+Dispute Raised: For every new weight discrepancy, a seller has the option to either reject or accept the courier claim. We raise a dispute on your behalf when you reject the applied weight discrepancy. 
+Discrepancy Accepted: We change the status of your weight discrepancy when you accept the new weight applied by the courier. 
+Dispute Rejected by Courier: When the respective courier rejects the dispute raised by the seller.
+Dispute Accepted by Courier: When the respective courier partner accepts the dispute raised by the seller.
+Auto Accept: If a seller doesn't take action, we accept the final weight shared by the courier.
+SR Credit: SR credit refers to the on-hold amount which we release when:
+* the courier accepts the weight dispute raised by the seller, or
+* Shiprocket reduces the applied weight of a shipment."
+"What is Dead Weight?
+
+Dead weight is the physical weight of the package, and it is one of the key metrics used in calculating shipping costs. Dead weight is simply the gross weight of the shipment as measured on a scale. It is an important factor for shipping costs, especially when shipping heavy but compact items. However, for lightweight but bulky items, couriers often use volumetric weight to determine shipping charges, as these items can take up a lot of space in a delivery vehicle despite being relatively light."
