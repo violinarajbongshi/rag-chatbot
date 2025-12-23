@@ -10,6 +10,7 @@ from langchain.chains import RetrievalQA
 from langchain_openai import ChatOpenAI
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_ollama import ChatOllama
+from langchain.prompts import PromptTemplate
 
 class RAGEngine:
     def __init__(self, api_key=None, provider="openai", model_name="llama3"):
@@ -42,14 +43,6 @@ class RAGEngine:
         all_documents = []
         files_processed = 0
         
-        # Support recursive search for txt, md, csv
-        patterns = ["*.txt", "*.md", "*.csv"]
-        for pattern in patterns:
-            # Case insensitive search logic could be complex with glob, 
-            # assuming extensions are lowercase or properly matched.
-            # We will iterate all files and check extensions to be robust.
-            pass
-            
         for root, dirs, files in os.walk(directory_path):
             for file in files:
                 file_path = os.path.join(root, file)
@@ -87,5 +80,32 @@ class RAGEngine:
         if not self.vector_store:
             return "Knowledge Base is empty. Please load documents."
         
-        qa = RetrievalQA.from_chain_type(llm=self.llm, chain_type="stuff", retriever=self.vector_store.as_retriever())
-        return qa.run(query)
+        prompt_template = """Use the following pieces of context to answer the question at the end. 
+        If the context does not contain the answer, say "I couldn't find the answer in the provided context." but if you can infer it, please do so.
+        
+        Context:
+        {context}
+        
+        Question: {question}
+        Answer:"""
+        
+        PROMPT = PromptTemplate(
+            template=prompt_template, input_variables=["context", "question"]
+        )
+        
+        qa = RetrievalQA.from_chain_type(
+            llm=self.llm, 
+            chain_type="stuff", 
+            retriever=self.vector_store.as_retriever(search_kwargs={"k": 5}),
+            chain_type_kwargs={"prompt": PROMPT},
+            return_source_documents=True
+        )
+        
+        # Run and log sources
+        result = qa.invoke(query)
+        print(f"Query: {query}")
+        print(f"Sources: {len(result.get('source_documents', []))}")
+        for doc in result.get('source_documents', []):
+            print(f"- {doc.page_content[:100]}...")
+            
+        return result['result']
