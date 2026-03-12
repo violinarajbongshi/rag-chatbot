@@ -1,4 +1,5 @@
 import os
+import shutil
 from langchain_community.document_loaders import TextLoader, CSVLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
@@ -64,10 +65,14 @@ class RAGEngine:
             return "No valid documents found in KB directory."
 
         try:
+            persist_dir = os.path.join(directory_path, "../chroma_db")
+            # Clear existing vector store to avoid duplicates
+            if os.path.exists(persist_dir):
+                shutil.rmtree(persist_dir)
+            
             text_splitter = RecursiveCharacterTextSplitter(chunk_size=1500, chunk_overlap=300)
             texts = text_splitter.split_documents(all_documents)
             
-            persist_dir = os.path.join(directory_path, "../chroma_db")
             self.vector_store = Chroma.from_documents(
                 texts, 
                 self.embeddings,
@@ -87,7 +92,7 @@ Your role:
 Help users quickly find instructions and processes from the Shiprocket SOP knowledge base.
 
 Rules:
-- Answer ONLY using the knowledge base provided.
+- Answer ONLY using the knowledge base provided. Be thorough when checking.
 - Do not generate information outside the SOP.
 - If the answer is not found, say:
   "This information is not available in the SOP knowledge base."
@@ -117,7 +122,7 @@ Answer:"""
         qa = RetrievalQA.from_chain_type(
             llm=self.llm, 
             chain_type="stuff", 
-            retriever=self.vector_store.as_retriever(search_kwargs={"k": 3}),
+            retriever=self.vector_store.as_retriever(search_kwargs={"k": 5}), # Increased to 5 for better coverage
             chain_type_kwargs={"prompt": PROMPT}
         )
         

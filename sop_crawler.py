@@ -20,14 +20,15 @@ def get_main_content(soup):
         '#sites-canvas-main-content'
     ]
     
+    # Remove common Google Sites boilerplate elements
+    for element in soup.select('nav, header, footer, .navigation, .sidebar, .footer, script, style, .goog-sites-header-p'):
+        element.decompose()
+        
     for selector in content_selectors:
         content = soup.select_one(selector)
         if content and len(content.get_text(strip=True)) > 100:
             return content
             
-    for nav in soup.select('nav, header, footer, .navigation, .sidebar, .footer, script, style'):
-        nav.decompose()
-        
     return soup.find('body')
 
 def crawl_sop_site(base_url):
@@ -64,6 +65,19 @@ def crawl_sop_site(base_url):
                 
                 if main_content:
                     text_content = main_content.get_text(separator=' ', strip=True)
+                    
+                    # Remove more boilerplate phrases
+                    prefixes_to_remove = [
+                        "Search this site",
+                        "Embedded Files",
+                        "Skip to main content",
+                        "Skip to navigation",
+                        "Report abuse"
+                    ]
+                    for prefix in prefixes_to_remove:
+                        text_content = text_content.replace(prefix, "")
+                    
+                    # Clean up multiple spaces and excessive whitespace
                     text_content = re.sub(r'\s+', ' ', text_content).strip()
                     
                     file_name = clean_filename(name) + ".md"
