@@ -1,0 +1,5 @@
+# Instant Pickup
+
+Source: https://sites.google.com/shiprocket.com/sop-shiprocket/instant-pickup
+
+Search this site Embedded Files Skip to main content Skip to navigation Instant Pickup Current Pickup Process - Instant Pick : Order Time - Pickup Time Slot 4pm to 9am Orders - 9am -12 pm 9-12pm Orders - 12-3 pm 12- 4pm Orders - 3-6 pm FAQ 1. Instant pickup process update is for all the advisors or only for pick exception project advisors? Ans : -This is for all the advisors, incase seller is irate and asking for same day pickup suggest seller for instant pickup option with shadowfax. FAQ 2. Instant pickup tag to be added on FD wherever advisor has pitched for Instant pickup to sellers. Ans- FCR tagging with instant pickup tag FAQ 3. Will our advisor suggest a seller to reassign shipments for all couriers or for specific one ? Ans:- Advisor can suggest instant pickup with shadowfax to all the urgent pickup which were scheduled to any of the courier partner * Courier name Snap :- * Basis pickup creation time, seller will have the visibility of pickup time, here shipment was created after 4pm hence the timings are showing as 9AM to 12PM. Report abuse Report abuse

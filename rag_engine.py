@@ -1,6 +1,5 @@
 import os
-import glob
-from langchain_community.document_loaders import TextLoader, UnstructuredMarkdownLoader, CSVLoader
+from langchain_community.document_loaders import TextLoader, CSVLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 from langchain_openai import OpenAIEmbeddings
@@ -19,20 +18,14 @@ class RAGEngine:
         self.model_name = model_name
         
         if provider == "openai":
-            if not api_key:
-                raise ValueError("API Key required for OpenAI")
             self.embeddings = OpenAIEmbeddings(api_key=api_key)
             self.llm = ChatOpenAI(model="gpt-4o-mini", temperature=0, api_key=api_key)
         elif provider == "google":
-            if not api_key:
-                raise ValueError("API Key required for Google")
             self.embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001", google_api_key=api_key)
             self.llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=api_key)
         elif provider == "ollama":
             self.embeddings = OllamaEmbeddings(model=model_name)
             self.llm = ChatOllama(model=model_name)
-        else:
-            raise ValueError("Unsupported provider")
         
         self.vector_store = None
 
@@ -53,12 +46,15 @@ class RAGEngine:
                     if file_name_lower.endswith(".txt"):
                         loader = TextLoader(file_path)
                     elif file_name_lower.endswith(".md"):
-                        loader = UnstructuredMarkdownLoader(file_path)
+                        loader = TextLoader(file_path)
                     elif file_name_lower.endswith(".csv"):
                         loader = CSVLoader(file_path)
                     
                     if loader:
                         docs = loader.load()
+                        rel_path = os.path.relpath(file_path, directory_path)
+                        for doc in docs:
+                            doc.metadata["source"] = rel_path
                         all_documents.extend(docs)
                         files_processed += 1
                 except Exception as e:
@@ -68,10 +64,15 @@ class RAGEngine:
             return "No valid documents found in KB directory."
 
         try:
-            text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+            text_splitter = RecursiveCharacterTextSplitter(chunk_size=1500, chunk_overlap=300)
             texts = text_splitter.split_documents(all_documents)
             
-            self.vector_store = Chroma.from_documents(texts, self.embeddings)
+            persist_dir = os.path.join(directory_path, "../chroma_db")
+            self.vector_store = Chroma.from_documents(
+                texts, 
+                self.embeddings,
+                persist_directory=persist_dir
+            )
             return f"Successfully ingested {len(texts)} chunks from {files_processed} files."
         except Exception as e:
             return f"Error creating vector store: {e}"
@@ -80,14 +81,34 @@ class RAGEngine:
         if not self.vector_store:
             return "Knowledge Base is empty. Please load documents."
         
-        prompt_template = """Use the following pieces of context to answer the question at the end. 
-        If the context does not contain the answer, say "I couldn't find the answer in the provided context." but if you can infer it, please do so.
-        
-        Context:
-        {context}
-        
-        Question: {question}
-        Answer:"""
+        prompt_template = """You are an internal Shiprocket SOP assistant.
+
+Your role:
+Help users quickly find instructions and processes from the Shiprocket SOP knowledge base.
+
+Rules:
+- Answer ONLY using the knowledge base provided.
+- Do not generate information outside the SOP.
+- If the answer is not found, say:
+  "This information is not available in the SOP knowledge base."
+
+Response style:
+- Keep answers concise and structured.
+- Prefer step-by-step instructions.
+- Use numbered steps when explaining processes.
+- Provide the SOP reference link at the end.
+
+Audience:
+Assume the user is a Shiprocket support agent.
+Provide clear troubleshooting steps they can follow while assisting sellers.
+Avoid long explanations.
+Focus on actionable instructions.
+
+Context:
+{context}
+
+Question: {question}
+Answer:"""
         
         PROMPT = PromptTemplate(
             template=prompt_template, input_variables=["context", "question"]
@@ -96,16 +117,9 @@ class RAGEngine:
         qa = RetrievalQA.from_chain_type(
             llm=self.llm, 
             chain_type="stuff", 
-            retriever=self.vector_store.as_retriever(search_kwargs={"k": 5}),
-            chain_type_kwargs={"prompt": PROMPT},
-            return_source_documents=True
+            retriever=self.vector_store.as_retriever(search_kwargs={"k": 3}),
+            chain_type_kwargs={"prompt": PROMPT}
         )
         
-        # Run and log sources
         result = qa.invoke(query)
-        print(f"Query: {query}")
-        print(f"Sources: {len(result.get('source_documents', []))}")
-        for doc in result.get('source_documents', []):
-            print(f"- {doc.page_content[:100]}...")
-            
         return result['result']

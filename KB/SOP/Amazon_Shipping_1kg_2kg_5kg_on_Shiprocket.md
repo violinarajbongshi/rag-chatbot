@@ -1,0 +1,5 @@
+# Amazon Shipping 1kg, 2kg, 5kg on Shiprocket.
+
+Source: https://sites.google.com/shiprocket.com/sop-shiprocket/amazon-shipping-1kg-2kg-5kg-on-shiprocket
+
+Amazon Shipping 1kg, 2kg, 5kg on Shiprocket Who all can make a shipment? Any seller who has GSTIN invoicing enabled in Shiprocket settings and has GSTIN added for the locations. What all is serviceable? Prepaid Order Amount <50k INR Prepaid (we will open COD soon once Amazon approves) Max Dimension 70*70*45 cm Min weight is 0.5kg Max weight is 18kg Only non-hazmat items Mode: Surface Note: Dangerous goods cannot be shipped with Amazon. Label: Only thermal printing is accepted by Amazon How are pickups generated for Amazon? Shipments created with Amazon get automatically scheduled for pickup, sellers don't have to generate pickup manually. Shipments are picked up in 2 slots and the same is displayed on seller panel during ship now: If shipment is created till 9:45am, the shipments are picked between 10 am-1pm If shipment is created till 12:45pm, the shipments are picked between 1pm-4pm. Also sharing the rate card attached to this email

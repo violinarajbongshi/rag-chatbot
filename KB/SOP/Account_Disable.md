@@ -1,0 +1,5 @@
+# Account Disable
+
+Source: https://sites.google.com/shiprocket.com/sop-shiprocket/account-disable
+
+Search this site Embedded Files Skip to main content Skip to navigation Account Disable Scenario 1. If the seller is complaining that he is unable to login or create order as the account is Disable Ask for screenshot and assign the ticket to FOPS and TAT will 1 to 2 working days for resolution. Nugget Tagging Seller User:- Seller's registered emai id Channel:- FOPS Agent Assign :- NA Ticket Priority :- Low Status :- Open Subject :- Account Disable Body:- NA Private Notes :- NA Phone:- Calling number Source:- Phone / Chat Type:- Query FCR:- NFCR Escalation Desk/ORM Tag :- NA VOC :- NA SR Issue Category:- Issues_with_ShipRocket_Panel Sub Category :- Account Blocked Issue Details :- NA Courier Name:- NA AWB Number :- NA Multiple AWB Number :- NA Multiple Case Scenario :- NA Shipment Status :- NA Jira Link :- NA KAM Action Flag :- NA Report abuse Report abuse

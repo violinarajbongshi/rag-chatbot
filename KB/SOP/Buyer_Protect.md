@@ -1,0 +1,5 @@
+# Buyer Protect
+
+Source: https://sites.google.com/shiprocket.com/sop-shiprocket/buyer-protect
+
+Search this site Embedded Files Skip to main content Skip to navigation Buyer Protect We’re excited to share that Buyer Protect is now LIVE on the Shiprocket Tracking Page for buyers! Here is the link to the video : Buyer-Protect-Video About Buyer Protect - Buyer Protect acts like an insurance cover for buyers post-purchase - securing their orders against fraud, loss, or damage . With a simple one-step activation from the tracking page, buyers can instantly safeguard their purchase. Buyer Journey Activation: A hook appears on the order tracking page, allowing buyers to activate Buyer Protect. Post Activation: Once activated, buyers can raise a claim directly from the tracking page: For Damaged/Fraud Orders: After delivery For Lost Orders: 20 days post the order date A Raise Claim Form is integrated, allowing buyers to easily upload photos, videos, and order details for quick claim processing. We’ll be closely monitoring adoption and performance metrics in the coming days and will share insights post go-live. Report abuse Report abuse

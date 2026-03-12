@@ -1,0 +1,5 @@
+# Hyperlocal
+
+Source: https://sites.google.com/shiprocket.com/sop-shiprocket/live/hyperlocal
+
+Search this site Embedded Files Skip to main content Skip to navigation Hyperlocal Hyperlocal Shipping Hyperlocal Shipping is a service where we provide same day pickup and delivery facility within a range of 40-50 kilometers. To avail this facility you can simply create a shipment manually from your panel and on the basis of entered address and pin-code details, hyperlocal courier partners will be reflected on your panel. Nugget Ticket: Seller User:- Seller's registered emai id Channel:- Customer Support Call Center Agent Assign :- Own Name Ticket Priority :- Low Status :- Resolved Subject :- Hyperlocal Query Body:- NA Private Notes :- NA Phone:- Calling number Source:- Phone / Chat Type:- Query FCR:- Yes Escalation Desk/ORM Tag :- NA VOC :- NA SR Issue Category:- Other Sub Category :- Other Issue Details :- NA Courier Name:- NA AWB Number :- NA Multiple AWB Number :- NA Multiple Case Scenario :- NA Shipment Status :- NA Jira Link :- NA KAM Action Flag :- NA Report abuse Report abuse

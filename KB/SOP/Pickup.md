@@ -1,0 +1,5 @@
+# Pickup
+
+Source: https://sites.google.com/shiprocket.com/sop-shiprocket/live/pickup
+
+Search this site Embedded Files Skip to main content Skip to navigation Back Pickup Same day pickup cut-off at manifestation If Order is scheduled before 11 am - Pick up scheduled for same day For India post, schedule before 10 am to schedule pick up for same day Check ICRM showing below mentioned Status, then click on pickup required: Out For Pickup Pickup Exception Pickup Generated Pickup Rescheduled QC Failed Check ICRM showing below mentioned Status, then click on pickup miscellaneous : Pickup Queued Pickup Error Pickup Booked AWB Assigned Label Generated Check ICRM showing below mentioned Status, then click on Cancellation : Cancelled Cancellation Requested Pickup Required Pickup Miscellaneous Pickup Connection Dispute Report abuse Report abuse

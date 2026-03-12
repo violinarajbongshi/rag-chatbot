@@ -1,0 +1,5 @@
+# Email Id Change
+
+Source: https://sites.google.com/shiprocket.com/sop-shiprocket/email-id-change
+
+Email Id Change If Seller wants to change his email id than advisor needs to ask seller to share the email ID which seller wants to update in SR account check that new email id is registered or not If Yes:- Softly denial as account is already registered with same Mail Id If No:- Advisor will raised the request to Finance desk Tat will be 1-2 working days Seller User:- Seller's registered emai id Channel:- Customer Support Finance Desk Channel Email :- NA Agent Assign :- Priya / Manisha Ticket Priority :- Low Subject :- Change Email ID Body:- NA Private Notes :- NA Phone:- Calling number Source:- Phone / Chat Type:- Q uery FCR:- NFCR Escalation Desk/ORM Tag :- NA VOC :- ( Mention seller and advisor VOC ) SR Issue Category:- Profile_Related Sub Category :- Update company name/Profile details Issue Details :- NA Courier Name:- NA AWB Number :- NA Multiple AWB Number :- NA Multiple Case Scenario :- NA Shipment Status :- NA Jira Link :- NA KAM Action Flag :- NA

@@ -57,6 +57,21 @@ with st.sidebar:
     if st.button("Reload Knowledge Base"):
         st.session_state.kb_loaded = False
 
+    if st.button("Sync SOP Knowledge"):
+        with st.spinner("Fetching latest SOPs from the site..."):
+            try:
+                import sys
+                project_path = "/Users/violinarajbongshi/.gemini/antigravity/brain/442d8d21-a71c-49e5-9205-5fd04db34e9e"
+                if project_path not in sys.path:
+                    sys.path.append(project_path)
+                
+                from sop_crawler import crawl_sop_site
+                count = crawl_sop_site("https://sites.google.com/shiprocket.com/sop-shiprocket/home")
+                st.success(f"Successfully synced {count} SOP pages!")
+                st.session_state.kb_loaded = False # Force reload
+            except Exception as e:
+                st.error(f"Sync failed: {e}")
+
 # Initialize Session State
 if "rag_engine" not in st.session_state:
     st.session_state.rag_engine = None
@@ -71,8 +86,9 @@ is_ready = (provider == "ollama") or (api_key)
 if is_ready and not st.session_state.kb_loaded:
     with st.spinner("Scanning and Ingesting KB folder..."):
         try:
+            kb_path = "/Users/violinarajbongshi/.gemini/antigravity/brain/442d8d21-a71c-49e5-9205-5fd04db34e9e/KB"
             engine = RAGEngine(api_key, provider, model_name)
-            msg = engine.ingest_directory("KB")
+            msg = engine.ingest_directory(kb_path)
             st.session_state.rag_engine = engine
             st.session_state.kb_loaded = True
             st.success(msg)

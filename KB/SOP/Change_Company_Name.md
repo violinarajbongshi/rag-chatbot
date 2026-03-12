@@ -1,0 +1,5 @@
+# Change Company Name
+
+Source: https://sites.google.com/shiprocket.com/sop-shiprocket/change-company-name
+
+Search this site Embedded Files Skip to main content Skip to navigation Change Company Name SOP – Company Name Change Handling Effective from 8th November'25 Company name changes are generally not allowed because the company name is linked with KYC compliance. The L1 advisor will deny the request by providing a soft denial explanation, stating that the company name cannot be changed, and then create a (FCR in the Customer Support Call Center channel. If the seller still disagrees, as an exception: Request the seller to provide: The reason for the name change request, The updated company name , The GST document (3 pages) . The advisor should create an Awaiting Customer Response (ACR) requesting these GST details from the seller. Assign the ticket to the "Compliance Queries" channel with the advisor name set to "Ravi Jangra" . Upon receiving the required details over the call/Chat/Email(reason, updated company name, and 3 pages of GST), change the ticket status to "Open" in the "Compliance Queries" channel for further processing. Report abuse Report abuse
