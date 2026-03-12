@@ -6,6 +6,9 @@ from rag_engine import RAGEngine
 # Load environment variables
 load_dotenv()
 
+# Get the directory where this script is located
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 st.set_page_config(page_title="Shiprocket KB Checker", layout="wide")
 
 st.title("📚 Shiprocket KB Checker")
@@ -24,15 +27,15 @@ with st.sidebar:
         # Check environment variable first
         api_key = os.getenv("OPENAI_API_KEY")
         
-        # If not found, try st.secrets (gracefully handle missing secrets)
+        # If not found, try st.secrets
         if not api_key:
             try:
                 if "OPENAI_API_KEY" in st.secrets:
                     api_key = st.secrets["OPENAI_API_KEY"]
             except FileNotFoundError:
-                pass # No secrets file found, ignore
+                pass
             except Exception:
-                pass # Other secrets errors
+                pass
             
         if not api_key:
             st.error("OPENAI_API_KEY not found in .env or secrets.")
@@ -61,9 +64,8 @@ with st.sidebar:
         with st.spinner("Fetching latest SOPs from the site..."):
             try:
                 import sys
-                project_path = "/Users/violinarajbongshi/.gemini/antigravity/brain/442d8d21-a71c-49e5-9205-5fd04db34e9e"
-                if project_path not in sys.path:
-                    sys.path.append(project_path)
+                if BASE_DIR not in sys.path:
+                    sys.path.append(BASE_DIR)
                 
                 from sop_crawler import crawl_sop_site
                 count = crawl_sop_site("https://sites.google.com/shiprocket.com/sop-shiprocket/home")
@@ -86,7 +88,7 @@ is_ready = (provider == "ollama") or (api_key)
 if is_ready and not st.session_state.kb_loaded:
     with st.spinner("Scanning and Ingesting KB folder..."):
         try:
-            kb_path = "/Users/violinarajbongshi/.gemini/antigravity/brain/442d8d21-a71c-49e5-9205-5fd04db34e9e/KB"
+            kb_path = os.path.join(BASE_DIR, "KB")
             engine = RAGEngine(api_key, provider, model_name)
             msg = engine.ingest_directory(kb_path)
             st.session_state.rag_engine = engine

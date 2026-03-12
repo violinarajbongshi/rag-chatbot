@@ -3,6 +3,9 @@ from bs4 import BeautifulSoup
 import os
 import re
 
+# Get the directory where this script is located
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 def clean_filename(filename):
     return re.sub(r'[^\w\s-]', '', filename).strip().replace(' ', '_')
 
@@ -34,9 +37,9 @@ def crawl_sop_site(base_url):
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
         
-        kb_dir = "/Users/violinarajbongshi/.gemini/antigravity/brain/442d8d21-a71c-49e5-9205-5fd04db34e9e/KB/SOP"
+        kb_dir = os.path.join(BASE_DIR, "KB", "SOP")
         if not os.path.exists(kb_dir):
-            os.makedirs(kb_dir)
+            os.makedirs(kb_dir, exist_ok=True)
             
         links = soup.find_all('a', href=True)
         sop_links = []
@@ -61,7 +64,6 @@ def crawl_sop_site(base_url):
                 
                 if main_content:
                     text_content = main_content.get_text(separator=' ', strip=True)
-                    # Clean up multiple spaces and newlines
                     text_content = re.sub(r'\s+', ' ', text_content).strip()
                     
                     file_name = clean_filename(name) + ".md"
@@ -81,6 +83,7 @@ def crawl_sop_site(base_url):
         return 0
 
 if __name__ == "__main__":
-    if not os.path.exists("/Users/violinarajbongshi/.gemini/antigravity/brain/442d8d21-a71c-49e5-9205-5fd04db34e9e/KB"):
-        os.makedirs("/Users/violinarajbongshi/.gemini/antigravity/brain/442d8d21-a71c-49e5-9205-5fd04db34e9e/KB")
+    kb_path = os.path.join(BASE_DIR, "KB")
+    if not os.path.exists(kb_path):
+        os.makedirs(kb_path, exist_ok=True)
     crawl_sop_site("https://sites.google.com/shiprocket.com/sop-shiprocket/home")
