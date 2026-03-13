@@ -2,4 +2,4 @@
 
 Source: https://sites.google.com/shiprocket.com/sop-shiprocket/live/seller-co-pilot-in-advisorsso
 
-Search this site Embedded Files Skip to main content Skip to navigation Seller Co-pilot in Advisor SSO i) Seller Co-pilot is Seller's interface and to be referred just for knowledge not for process or action. ii) Advisor must refer to internal SOP for information download to seller, they can refer to CO-pilot for self knowledge about product or process. Report abuse Report abuse
+Seller Co-pilot in Advisor SSO i) Seller Co-pilot is Seller's interface and to be referred just for knowledge not for process or action. ii) Advisor must refer to internal SOP for information download to seller, they can refer to CO-pilot for self knowledge about product or process.
