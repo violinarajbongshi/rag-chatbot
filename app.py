@@ -23,7 +23,7 @@ if "kb_loaded" not in st.session_state:
 
 # Configuration and Ingestion (Auto-load)
 api_key = os.getenv("OPENAI_API_KEY")
-provider = "openai" # Default to OpenAI as per current setup, can be made dynamic from .env
+provider = "openai" 
 model_name = "gpt-4o-mini"
 
 if not api_key:
@@ -31,16 +31,26 @@ if not api_key:
     st.stop()
 
 if not st.session_state.kb_loaded:
-    with st.spinner("Initializing Knowledge Base..."):
+    with st.spinner("Initializing SOP Knowledge Base..."):
         try:
             kb_path = os.path.join(BASE_DIR, "KB")
             engine = RAGEngine(api_key, provider, model_name)
-            msg = engine.ingest_directory(kb_path)
-            st.session_state.rag_engine = engine
-            st.session_state.kb_loaded = True
-            # st.toast(msg) # Subtle notification
+            
+            # Try loading existing index first (Fast)
+            if engine.load_existing_index(kb_path):
+                st.session_state.rag_engine = engine
+                st.session_state.kb_loaded = True
+            else:
+                # If no index, ingest (Slow)
+                success, msg = engine.ingest_directory(kb_path)
+                if success:
+                    st.session_state.rag_engine = engine
+                    st.session_state.kb_loaded = True
+                else:
+                    st.error(f"Failed to load Knowledge Base: {msg}")
+                    # Keep kb_loaded = False to retry on next rerun
         except Exception as e:
-            st.error(f"Error loading KB: {e}")
+            st.error(f"Error during initialization: {e}")
 
 # Chat Interface
 for message in st.session_state.messages:
@@ -49,7 +59,7 @@ for message in st.session_state.messages:
 
 if prompt := st.chat_input("Ask a question about Shiprocket SOPs"):
     if not st.session_state.rag_engine or not st.session_state.kb_loaded:
-        st.warning("Knowledge Base is still loading. Please wait a moment.")
+        st.warning("Knowledge Base is not ready. Please check for errors or wait for synchronization.")
     else:
         st.session_state.messages.append({"role": "user", "content": prompt})
         with st.chat_message("user"):

@@ -28,9 +28,12 @@ def run_sync():
     kb_path = os.path.join(BASE_DIR, "KB")
     
     print("Re-ingesting Knowledge Base...")
-    result = engine.ingest_directory(kb_path)
+    success, result = engine.ingest_directory(kb_path)
     print(result)
-    print("Sync complete.")
+    if success:
+        print("Sync complete.")
+    else:
+        print("Sync failed.")
 
 if __name__ == "__main__":
     run_sync()

@@ -13,14 +13,14 @@ from langchain_ollama import ChatOllama
 from langchain.prompts import PromptTemplate
 
 class RAGEngine:
-    def __init__(self, api_key=None, provider="openai", model_name="llama3"):
+    def __init__(self, api_key=None, provider="openai", model_name="gpt-4o-mini"):
         self.provider = provider
         self.api_key = api_key
         self.model_name = model_name
         
         if provider == "openai":
             self.embeddings = OpenAIEmbeddings(api_key=api_key)
-            self.llm = ChatOpenAI(model="gpt-4o-mini", temperature=0, api_key=api_key)
+            self.llm = ChatOpenAI(model=model_name, temperature=0, api_key=api_key)
         elif provider == "google":
             self.embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001", google_api_key=api_key)
             self.llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=api_key)
@@ -30,9 +30,22 @@ class RAGEngine:
         
         self.vector_store = None
 
+    def load_existing_index(self, directory_path):
+        persist_dir = os.path.join(directory_path, "../chroma_db")
+        if os.path.exists(persist_dir):
+            try:
+                self.vector_store = Chroma(persist_directory=persist_dir, embedding_function=self.embeddings)
+                # Verify it has data
+                # collection_count = self.vector_store._collection.count()
+                # if collection_count > 0:
+                return True
+            except Exception as e:
+                print(f"Error loading existing index: {e}")
+        return False
+
     def ingest_directory(self, directory_path):
         if not os.path.exists(directory_path):
-            return f"Directory not found: {directory_path}"
+            return False, f"Directory not found: {directory_path}"
         
         all_documents = []
         files_processed = 0
@@ -62,11 +75,10 @@ class RAGEngine:
                     print(f"Error loading {file}: {e}")
 
         if not all_documents:
-            return "No valid documents found in KB directory."
+            return False, "No valid documents found in KB directory."
 
         try:
             persist_dir = os.path.join(directory_path, "../chroma_db")
-            # Clear existing vector store to avoid duplicates
             if os.path.exists(persist_dir):
                 shutil.rmtree(persist_dir)
             
@@ -78,13 +90,13 @@ class RAGEngine:
                 self.embeddings,
                 persist_directory=persist_dir
             )
-            return f"Successfully ingested {len(texts)} chunks from {files_processed} files."
+            return True, f"Successfully ingested {len(texts)} chunks from {files_processed} files."
         except Exception as e:
-            return f"Error creating vector store: {e}"
+            return False, f"Error creating vector store: {e}"
 
     def ask(self, query):
         if not self.vector_store:
-            return "Knowledge Base is empty. Please load documents."
+            return "Knowledge Base is empty or not yet loaded. Please ensure SOPs are synced."
         
         prompt_template = """You are an internal Shiprocket SOP assistant.
 
@@ -122,7 +134,7 @@ Answer:"""
         qa = RetrievalQA.from_chain_type(
             llm=self.llm, 
             chain_type="stuff", 
-            retriever=self.vector_store.as_retriever(search_kwargs={"k": 5}), # Increased to 5 for better coverage
+            retriever=self.vector_store.as_retriever(search_kwargs={"k": 5}),
             chain_type_kwargs={"prompt": PROMPT}
         )
         
